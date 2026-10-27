@@ -183,16 +183,18 @@ The controller terminal shows each decision, e.g.
 
 ## Test cases (D1)
 
-Full steps are in [`tests/test_cases.md`](tests/test_cases.md).
+Full steps are in [`tests/test_cases.md`](tests/test_cases.md). Run all of them with
+`sudo python3 tests/run_d1_tests.py`; the last run (2026-10-27, smart mode, 6/6 passed) is in
+[`tests/d1_results.md`](tests/d1_results.md).
 
 | # | Test | Expected result | Actual result |
 |---|---|---|---|
-| 1 | `pingall` | 0% dropped (72/72) | _fill in after running_ |
-| 2 | h11 downloads `test_1m.bin` from `10.0.0.100` | `OK`, 1048576 bytes, CSV line written, controller logs a DECISION | |
-| 3 | Missing file / bad request | `ERR NOT_FOUND` / `ERR BAD_REQUEST`, client exits cleanly | |
-| 4 | `kill_server` on the server in use, client looping | Controller logs DOWN within ~5 s; later requests succeed from another server | |
-| 5 | `link_down` on the path in use, client looping | Controller logs reroute; requests keep succeeding via the other path | |
-| 6 | 6 clients looping at once | All succeed; DECISION lines spread across h1–h3 | |
+| 1 | `pingall` | 0% dropped (72/72) | PASS: 0% loss |
+| 2 | h11 downloads `test_1m.bin` from `10.0.0.100` | `OK`, 1048576 bytes, CSV line written, controller logs a DECISION  PASS: 1 MB in 948 ms, served by h1; rewrite flows seen on s1 and s4 |
+| 3 | Missing file / bad request | `ERR NOT_FOUND` / `ERR BAD_REQUEST`, client exits cleanly  PASS: `ERR NOT_FOUND`, `ERR BAD_REQUEST`; unreachable server failed twice cleanly |
+| 4 | `kill_server` on the server in use, client looping | Controller logs DOWN within ~5 s; later requests succeed from another server  PASS: 15/15 succeeded after killing h1 (h2 served 9, h3 served 6) |
+| 5 | `link_down` on the path in use, client looping | Controller logs reroute; requests keep succeeding via the other path  PASS: traffic moved from s3 to s2, 15/15 succeeded |
+| 6 | 6 clients looping at once | All succeed; DECISION lines spread across h1–h3  PASS: 60/60 succeeded, spread h1 22 / h2 22 / h3 16 |
 
 ## Troubleshooting
 

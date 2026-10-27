@@ -23,7 +23,7 @@ mininet> pingall
 lines and no repeated flooding. `sh ovs-ofctl -O OpenFlow13 dump-flows s1` shows
 `priority=1,ip,dl_dst=...` flows.
 
-**Actual:**
+**Actual:** PASS. 0% packet loss (run 2026-10-27).
 
 ---
 
@@ -45,7 +45,7 @@ mininet> sh ovs-ofctl -O OpenFlow13 dump-flows s1 | grep 10.0.0.100
 Also check that direct download from a real server works (Week 1 check):
 `h11 python3 servers/client.py --server 10.0.0.1 --file test_100k.bin`
 
-**Actual:**
+**Actual:** PASS. `Downloaded test_1m.bin: 1048576 bytes in 947.799 ms`, served by h1. s1 flow: `set_field:10.0.0.1->ip_dst`; s4 flow: `set_field:10.0.0.100->ip_src`.
 
 ---
 
@@ -64,7 +64,7 @@ mininet> h11 python3 servers/client.py --server 10.0.0.99 --file test_1m.bin
   apart (`No route to host` or `timed out`: one try + one retry), then
   `0/1 requests succeeded`. No crash.
 
-**Actual:**
+**Actual:** PASS. `ERR NOT_FOUND`, `ERR BAD_REQUEST`, and `No route to host` twice then `0/1 requests succeeded`.
 
 ---
 
@@ -90,7 +90,7 @@ mininet> sh cat /tmp/h11.out
   picks 10.0.0.1 or 10.0.0.3, and downloads succeed.
 - After `start_server h2`, controller logs `server 10.0.0.2 is UP`.
 
-**Actual:**
+**Actual:** PASS. h1 killed: 15/15 requests succeeded; h2 served 9, h3 served 6.
 
 ---
 
@@ -114,7 +114,7 @@ Wait 5 s and run the two `dump-flows` counts again, then `link_up s1 s2` and
 - Afterwards the connection flows are on s3 instead of s2.
 - Downloads keep succeeding (perhaps one slow request at the moment of the cut).
 
-**Actual:**
+**Actual:** PASS. Traffic was on s3; after `link_down s1 s3` the flows moved to s2; 15/15 succeeded.
 
 ---
 
@@ -135,4 +135,4 @@ Wait ~30 s.
 three servers; `servers/client_log.csv` has a line for each request, each with the
 right client IP.
 
-**Actual:**
+**Actual:** PASS. All six clients 10/10; connections h1 22, h2 22, h3 16.
