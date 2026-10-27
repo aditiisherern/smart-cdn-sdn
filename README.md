@@ -201,7 +201,7 @@ Full steps are in [`tests/test_cases.md`](tests/test_cases.md).
 | `pingall` fails right after start | Link discovery takes a few seconds. Wait and run it again |
 | `pingall` fails every time | Controller not running, or started after Mininet. `sudo mn -c`, start the controller first |
 | Client hangs on `10.0.0.100` | Controller not running, or `MODE=smart` with no live servers (check for `server ... is UP`) |
-| "File exists" starting Mininet | `sudo mn -c` |
+| "File exists" starting Mininet | `sudo mn -c`. It also kills the controller, so start the controller again afterwards |
 | See exactly what a switch does | `sh ovs-ofctl -O OpenFlow13 dump-flows s1` in the Mininet CLI |
 
 ## Still to do for D2

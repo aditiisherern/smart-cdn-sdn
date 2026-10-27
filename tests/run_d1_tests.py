@@ -1,6 +1,7 @@
 """Run the D1 test cases end to end on the real Mininet network.
 
-Start the controller first, then from the repository root:
+Order matters: `sudo mn -c` first (it kills any running ryu-manager), then
+start the controller, then from the repository root:
     sudo python3 tests/run_d1_tests.py
 
 Prints PASS/FAIL per test and writes the evidence to tests/d1_results.md.
@@ -13,7 +14,6 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-from mininet.clean import cleanup
 from mininet.link import TCLink
 from mininet.log import setLogLevel
 from mininet.net import Mininet
@@ -176,7 +176,6 @@ def write_report():
 
 def main():
     setLogLevel("warning")
-    cleanup()
     cdn_topo.make_test_files()
 
     net = Mininet(topo=cdn_topo.CDNTopology(), link=TCLink, controller=None,
