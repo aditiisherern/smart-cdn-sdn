@@ -1,0 +1,16 @@
+Experiment 3: Link Failure and Recovery
+Date: 11 November 2026
+
+Link tested: s1-h1
+During failure:
+Packets transmitted: 4
+Packets received: 0
+Packet loss: 100%
+
+After restoration:
+Packets transmitted: 4
+Packets received: 4
+Packet loss: 0%
+Average ping latency: 1.308 ms
+
+Result: Connectivity successfully restored.

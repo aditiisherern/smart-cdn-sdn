@@ -1,0 +1,18 @@
+Experiment 4: Slow Link Test
+Date: 11 November 2026
+
+Server tested: Server 2 (10.0.0.2)
+Bandwidth limit: 1 Mbps
+Requests: 5
+Successful requests: 5
+
+Response times:
+Test 1: 1.244 ms
+Test 2: 1.487 ms
+Test 3: 1.506 ms
+Test 4: 1.243 ms
+Test 5: 2.789 ms
+
+Average response time: 1.654 ms
+
+Result: All requests succeeded under the bandwidth restriction.

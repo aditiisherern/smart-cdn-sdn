@@ -1,0 +1,3 @@
+server,checks,successful_checks,average_latency_ms,availability_percent
+Server 1,167,91,0.4815384615384615,54.49101796407185
+Server 2,167,91,0.19131868131868132,54.49101796407185
