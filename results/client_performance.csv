@@ -1,0 +1,4 @@
+test,server1_response_ms,server2_response_ms,selected_server,download_bytes,download_success
+1,15.73,1.86,Server 2,897,True
+2,12.74,2.07,Server 2,897,True
+3,9.43,5.01,Server 2,897,True

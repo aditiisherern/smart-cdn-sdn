@@ -1,0 +1,11 @@
+Experiment 1: Normal Network Performance
+Date: 11 November 2026
+Requests: 5 per server
+Total requests: 15
+Successful requests: 15
+
+Server 1 average response time: 5.20 ms
+Server 2 average response time: 6.71 ms
+Server 3 average response time: 5.11 ms
+
+All HTTP requests returned status 200.

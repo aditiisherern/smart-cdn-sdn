@@ -1,0 +1,15 @@
+Experiment 2: Server Failure and Recovery
+Date: 11 November 2026
+
+Server tested: Server 1 (10.0.0.1)
+
+During failure:
+Server 1 status: DEAD
+Health monitoring detected connection failures.
+
+After restarting Server 1:
+Server 1 status: ALIVE
+Latency monitoring resumed.
+Consecutive failures: 0
+
+Result: Server failure was detected and server recovery was confirmed.

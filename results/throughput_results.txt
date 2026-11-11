@@ -1,0 +1,11 @@
+Throughput Measurement
+Date: 11 November 2026
+Server: Server 2 (10.0.0.2)
+Test file: 5 MB
+Number of measurements: 9
+
+Average measured throughput: 1125.30 MB/s
+
+Result: All nine downloads completed successfully.
+
+Note: These are short local virtual-network measurements and should not be interpreted as sustained physical network throughput.

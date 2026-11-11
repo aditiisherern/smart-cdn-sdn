@@ -1,0 +1,22 @@
+Performance Summary
+Date: 11 November 2026
+
+Experiment 1: Normal Network
+Total requests: 15
+Average response time: 5.675 ms
+P95 response time: 11.091 ms
+Maximum response time: 16.293 ms
+
+Experiment 4: Slow Link (1 Mbps)
+Total requests: 5
+Average response time: 1.654 ms
+P95 response time: 2.532 ms
+Maximum response time: 2.789 ms
+
+Experiment 5: Six Simultaneous Requests
+Total requests: 6
+Average response time: 4.021 ms
+P95 response time: 5.254 ms
+Maximum response time: 5.471 ms
+
+Note: P95 values use linear interpolation and are indicative because sample sizes are small. Throughput was not measured.

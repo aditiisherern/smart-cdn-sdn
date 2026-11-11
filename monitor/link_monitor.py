@@ -1,68 +1,90 @@
-"""Link monitor (Ryu app): every 2 s, asks each switch for port stats and
-turns the byte counters into link_load[(dpid, port)] = 0..1.
-
-Runs in the same ryu-manager as the controller:
-    ryu-manager --observe-links controller/cdn_controller.py monitor/link_monitor.py
-"""
-
+import csv
+import os
 import time
+from datetime import datetime
 
-from ryu.base import app_manager
-from ryu.controller import ofp_event
-from ryu.controller.handler import DEAD_DISPATCHER, MAIN_DISPATCHER
-from ryu.controller.handler import set_ev_cls
-from ryu.lib import hub
-from ryu.ofproto import ofproto_v1_3
+link_load = {}
+previous_stats = {}
 
-POLL_INTERVAL = 2
-# Switch-to-switch links are 10 Mbps (topology/cdn_topo.py). Host links are
-# 100 Mbps, so their numbers read 10x too high; only switch links matter here.
-LINK_CAPACITY_BPS = 10 * 1000 * 1000
+LINK_SPEED_BPS = 10_000_000  # 10 Mbps default
+LOG_DIR = "/home/seema/cdn-project/results"
+LOG_FILE = os.path.join(LOG_DIR, "link_utilization.csv")
+
+os.makedirs(LOG_DIR, exist_ok=True)
+
+if not os.path.exists(LOG_FILE):
+    with open(LOG_FILE, "w", newline="") as f:
+        csv.writer(f).writerow([
+            "timestamp",
+            "switch_id",
+            "port_no",
+            "utilization_percent",
+        ])
 
 
-class LinkMonitor(app_manager.RyuApp):
-    OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
+def calculate_utilization(bytes_delta, interval, link_speed_bps):
+    if interval <= 0 or link_speed_bps <= 0:
+        return 0.0
 
-    def __init__(self, *args, **kwargs):
-        super(LinkMonitor, self).__init__(*args, **kwargs)
-        self.datapaths = {}
-        self.last_tx = {}     # (dpid, port) -> (tx_bytes, time)
-        self.link_load = {}   # (dpid, port) -> fraction of capacity used, outgoing
-        hub.spawn(self._poll)
+    bits_per_second = (bytes_delta * 8) / interval
+    utilization = bits_per_second / link_speed_bps
+    return min(max(utilization, 0.0), 1.0)
 
-    @set_ev_cls(ofp_event.EventOFPStateChange, [MAIN_DISPATCHER, DEAD_DISPATCHER])
-    def _state_change(self, ev):
-        datapath = ev.datapath
-        if ev.state == MAIN_DISPATCHER:
-            self.datapaths[datapath.id] = datapath
-        elif ev.state == DEAD_DISPATCHER:
-            self.datapaths.pop(datapath.id, None)
 
-    def _poll(self):
+def update_port_stats(switch_id, port_no, rx_bytes, tx_bytes, timestamp=None):
+    if timestamp is None:
+        timestamp = time.monotonic()
+
+    key = (switch_id, port_no)
+    current_bytes = rx_bytes + tx_bytes
+
+    if key in previous_stats:
+        old_bytes, old_time = previous_stats[key]
+        interval = timestamp - old_time
+        byte_delta = max(0, current_bytes - old_bytes)
+
+        utilization = calculate_utilization(
+            byte_delta, interval, LINK_SPEED_BPS
+        )
+        link_load[key] = utilization
+
+        with open(LOG_FILE, "a", newline="") as f:
+            csv.writer(f).writerow([
+                datetime.now().isoformat(timespec="seconds"),
+                switch_id,
+                port_no,
+                round(utilization * 100, 2),
+            ])
+
+    previous_stats[key] = (current_bytes, timestamp)
+
+
+def main():
+    print("Link monitor helper ready.", flush=True)
+    print("Waiting for OpenFlow port statistics integration.", flush=True)
+
+    try:
         while True:
-            for datapath in list(self.datapaths.values()):
-                parser = datapath.ofproto_parser
-                datapath.send_msg(parser.OFPPortStatsRequest(datapath, 0,
-                                                             datapath.ofproto.OFPP_ANY))
-            hub.sleep(POLL_INTERVAL)
+            if link_load:
+                print("Current link loads:", flush=True)
+                for key, utilization in link_load.items():
+                    print(
+                        f"Switch {key[0]}, port {key[1]}: "
+                        f"{utilization * 100:.2f}% utilized",
+                        flush=True,
+                    )
+            else:
+                print(
+                    "No port statistics received yet; "
+                    "OpenFlow integration is still required.",
+                    flush=True,
+                )
 
-    @set_ev_cls(ofp_event.EventOFPPortStatsReply, MAIN_DISPATCHER)
-    def _port_stats_reply(self, ev):
-        dpid = ev.msg.datapath.id
-        now = time.time()
-        parts = []
+            time.sleep(2)
 
-        for stat in sorted(ev.msg.body, key=lambda s: s.port_no):
-            if stat.port_no > ofproto_v1_3.OFPP_MAX:
-                continue
-            key = (dpid, stat.port_no)
-            previous = self.last_tx.get(key)
-            self.last_tx[key] = (stat.tx_bytes, now)
-            if previous is None:
-                continue
-            bits_per_s = (stat.tx_bytes - previous[0]) * 8 / max(now - previous[1], 1e-6)
-            self.link_load[key] = bits_per_s / LINK_CAPACITY_BPS
-            parts.append(f"p{stat.port_no}={self.link_load[key]:.2f}")
+    except KeyboardInterrupt:
+        print("\nLink monitor stopped.", flush=True)
 
-        if parts:
-            self.logger.info("s%d link load: %s", dpid, " ".join(parts))
+
+if __name__ == "__main__":
+    main()
