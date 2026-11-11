@@ -26,7 +26,9 @@ class SmartCDNController(app_manager.OSKenApp):
     SERVERS = {
         "Server 1": ("10.0.0.1", 8080),
         "Server 2": ("10.0.0.2", 8080),
+        "Server 3": ("10.0.0.3", 8080),
     }
+        
     def select_best_server(self):
         """Choose the healthy server with the lowest measured latency."""
         healthy_servers = [
@@ -116,12 +118,18 @@ class SmartCDNController(app_manager.OSKenApp):
                     datapath, 0, ofproto.OFPP_ANY
                 )
                 datapath.send_msg(request)
+                self.logger.info("Requested port stats from switch %s", datapath.id)
 
             # Check each server from its Mininet host namespace.
             for name, address in self.SERVERS.items():
                 status = self.server_status[name]
                 start = time.monotonic()
-                host = "h1" if name == "Server 1" else "h2"
+                host_map = {
+                  "Server 1": "h1",
+                  "Server 2": "h2",
+                  "Server 3": "h3",
+                }
+                host = host_map[name]
 
                 try:
                     pid_result = subprocess.run(
@@ -191,6 +199,7 @@ class SmartCDNController(app_manager.OSKenApp):
     
     @set_ev_cls(ofp_event.EventOFPPortStatsReply, MAIN_DISPATCHER)
     def port_stats_reply_handler(self, ev):
+        self.logger.info("Received port stats reply from switch %s", ev.msg.datapath.id)
         datapath = ev.msg.datapath
         now = time.monotonic()
 
