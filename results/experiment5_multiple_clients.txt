@@ -1,0 +1,20 @@
+Experiment 5: Multiple Simultaneous Client Requests
+Date: 11 November 2026
+
+Number of simultaneous requests: 6
+Server tested: Server 1 (10.0.0.1)
+
+Client 1: 4.601 ms, HTTP 200
+Client 2: 2.356 ms, HTTP 200
+Client 3: 3.527 ms, HTTP 200
+Client 4: 4.581 ms, HTTP 200
+Client 5: 5.471 ms, HTTP 200
+Client 6: 3.588 ms, HTTP 200
+
+Successful requests: 6
+Failed requests: 0
+Average response time: 4.02 ms
+Maximum response time: 5.471 ms
+
+Result: All six simultaneous requests completed successfully.
+Note: Six parallel requests were simulated from h1; six separate Mininet client hosts were not used.
