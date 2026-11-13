@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-base = Path("/home/seema/cdn-project")
+base = Path(__file__).resolve().parent.parent
 data = pd.read_csv(base / "results/client_performance.csv")
 
 plt.figure(figsize=(8, 5))

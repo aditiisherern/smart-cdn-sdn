@@ -7,7 +7,10 @@ link_load = {}
 previous_stats = {}
 
 LINK_SPEED_BPS = 10_000_000  # 10 Mbps default
-LOG_DIR = "/home/seema/cdn-project/results"
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+LOG_DIR = PROJECT_ROOT / "results"
 LOG_FILE = os.path.join(LOG_DIR, "link_utilization.csv")
 
 os.makedirs(LOG_DIR, exist_ok=True)

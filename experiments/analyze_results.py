@@ -4,7 +4,8 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-BASE = "/home/seema/cdn-project"
+from pathlib import Path
+BASE = Path(__file__).resolve().parent.parent
 RESULTS = os.path.join(BASE, "results")
 REPORT = os.path.join(BASE, "report")
 
