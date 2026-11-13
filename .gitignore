@@ -4,3 +4,7 @@ __pycache__/
 servers/content/*.bin
 experiments/results/*.csv
 .vscode/
+.venv-ryu/
+downloads/
+servers/downloads/
+*.bak
