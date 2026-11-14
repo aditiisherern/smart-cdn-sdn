@@ -11,6 +11,7 @@
 """
 
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -29,6 +30,8 @@ from ryu.topology import event as topo_event
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import config  # noqa: E402
 
+# CDN_MODE lets experiments/run_scenario.py pick the mode per run.
+MODE = os.environ.get("CDN_MODE", config.MODE)
 SERVER_IPS = list(config.SERVERS)
 REPORT_TIMEOUT = 5     # seconds without a load report before a server counts as dead
 MAX_CLIENTS = 10       # active_clients that counts as load 1.0
@@ -62,7 +65,7 @@ class CDNController(app_manager.RyuApp):
         self.last_report = {}
         self.assigned = {ip: 0 for ip in SERVER_IPS}  # connections given out since last report
 
-        self.logger.info("CDN controller starting in %s mode", config.MODE)
+        self.logger.info("CDN controller starting in %s mode", MODE)
         hub.spawn(self._watch_servers)
 
     # ---------------------------------------------------------------- switches
@@ -141,7 +144,7 @@ class CDNController(app_manager.RyuApp):
         if not self.graph.has_edge(src.dpid, dst.dpid):
             return
         self.graph.remove_edge(src.dpid, dst.dpid)
-        if config.MODE == "static":
+        if MODE == "static":
             self.logger.info("link down: s%d-s%d (static mode: not rerouting)",
                              src.dpid, dst.dpid)
             return
@@ -154,7 +157,7 @@ class CDNController(app_manager.RyuApp):
     def _hops(self, src, dst):
         """[(dpid, out_port), ...] from switch src to switch dst.
         The last hop's port is None: the caller fills in the host port."""
-        if config.MODE == "static" and (src, dst) in self.static_hops:
+        if MODE == "static" and (src, dst) in self.static_hops:
             return self.static_hops[(src, dst)]
         try:
             path = nx.shortest_path(self.graph, src, dst)
@@ -162,7 +165,7 @@ class CDNController(app_manager.RyuApp):
             return None
         hops = [(a, self.graph[a][b]["port"]) for a, b in zip(path, path[1:])]
         hops.append((dst, None))
-        if config.MODE == "static":
+        if MODE == "static":
             self.static_hops[(src, dst)] = hops
         return hops
 
@@ -298,10 +301,10 @@ class CDNController(app_manager.RyuApp):
     # ---------------------------------------------------------------- CDN redirect
 
     def choose_server(self):
-        if config.MODE == "static":
+        if MODE == "static":
             return SERVER_IPS[0], "static"
 
-        if config.MODE == "roundrobin":
+        if MODE == "roundrobin":
             server = SERVER_IPS[self.rr_next % len(SERVER_IPS)]
             self.rr_next += 1
             return server, "round-robin"
@@ -442,7 +445,7 @@ class CDNController(app_manager.RyuApp):
                     status["load"] = 0.0
                     self.logger.warning("server %s is DOWN (no load report for %ds)",
                                         server, REPORT_TIMEOUT)
-                    if config.MODE == "smart":
+                    if MODE == "smart":
                         self._drop_connections(server)
 
             self.connections = {key: conn for key, conn in self.connections.items()
