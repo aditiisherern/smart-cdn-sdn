@@ -108,6 +108,59 @@ state directly changes where the network sends traffic.
 | `roundrobin` | h1, h2, h3, h1, ... regardless of health | Shortest path, rerouted on failure |
 | `static` | Always h1 | First path found, never rerouted (baseline) |
 
+## Controller (`controller/cdn_controller.py`)
+
+A single Ryu app (OpenFlow 1.3). Start it with `--observe-links`, so Ryu's LLDP discovery
+reports the switches and links.
+
+**What it listens to**
+
+| Event | What it does |
+|---|---|
+| Switch connects | Installs the table-miss rule: anything unmatched goes to the controller |
+| `EventSwitchEnter`, `EventLinkAdd` | Adds the switch/link to a `networkx` graph; remembers which ports face other switches |
+| `EventLinkDelete` | Removes the link and deletes all its own flows, so traffic is re-installed on paths avoiding it (not in `static` mode) |
+| Packet-in: ARP | Answers itself: `00:00:00:00:01:00` for `10.0.0.100`, the learned MAC for any known host. Unknown targets are sent only out of host-facing ports, so broadcasts can't loop around the square |
+| Packet-in: UDP to `10.0.0.100:9999` | A server's load report: updates `server_status` |
+| Packet-in: TCP to `10.0.0.100:8080` | New connection: `choose_server()`, then installs the redirect flows below |
+| Packet-in: other IPv4 | Ordinary routing: `eth_dst` flows along the shortest path |
+
+**Flow rules it installs**
+
+| Priority | Match | Actions | Timeout | Cookie |
+|---|---|---|---|---|
+| 10 | client IP:port → `10.0.0.100:8080`, on the client's switch | set `eth_dst`/`ipv4_dst` to the server, output | idle 10 s | `0x1100` + server index |
+| 10 | server → client IP:port, on the server's switch | set `eth_src`/`ipv4_src` back to the VIP, output | idle 10 s | same |
+| 10 | the rewritten packets, on the switches in between | output | idle 10 s | same |
+| 1 | IPv4 to a host's MAC | output along the shortest path | idle 30 s | `0x1000` |
+| 0 | anything | send to controller | none | 0 |
+
+Rules are per TCP connection, so each new download is balanced separately. The cookies let it
+delete exactly one server's flows (server died) or all of its own flows (link died) without
+touching the table-miss rule.
+
+**Choosing a server** (`choose_server()`)
+
+- `smart`: skip servers marked dead, then pick the lowest
+  `load + assigned / 10 + latency_ms / 100`, where `load = active_clients / 10` from the last
+  report and `assigned` counts connections handed out since that report (so a burst of new
+  connections doesn't all land on one server before the next report arrives).
+- `roundrobin`: h1, h2, h3, h1, ... ignoring health.
+- `static`: always h1.
+
+**Failure handling**
+
+- A server with no load report for 5 s is marked dead; in `smart` mode its flows are deleted and
+  its connections forgotten, so the client's retry picks a live server.
+- The controller remembers which server each connection uses, so after a link failure an open
+  connection is re-installed on the new path with the same server.
+- Every decision and state change is logged:
+  `DECISION 10.0.0.11:43122 -> 10.0.0.2 (smart: lowest score 0.10 of 3 live)`,
+  `server 10.0.0.1 is DOWN (no load report for 5s)`, `link down: s1-s2, rerouting`.
+
+The mode comes from `MODE` in `config.py`, or from the `CDN_MODE` environment variable if set
+(the experiment runner uses this).
+
 ## Repository layout
 
 | Path | What it is | Owner |
@@ -196,6 +249,38 @@ Full steps are in [`tests/test_cases.md`](tests/test_cases.md). Run all of them 
 | 5 | `link_down` on the path in use, client looping | Controller logs reroute; requests keep succeeding via the other path  PASS: traffic moved from s3 to s2, 15/15 succeeded |
 | 6 | 6 clients looping at once | All succeed; DECISION lines spread across h1–h3  PASS: 60/60 succeeded, spread h1 22 / h2 22 / h3 16 |
 
+## Experiments (D2)
+
+`experiments/run_scenario.py` runs one experiment through the real system (clients talk to
+`10.0.0.100`, the controller makes every decision). It starts its own controller in the chosen
+mode, so stop any controller you have running first.
+
+```bash
+sudo python3 experiments/run_scenario.py --mode smart --exp 2    # one run, ~2.5 min
+sudo python3 experiments/run_scenario.py --all                   # 5 experiments x 3 modes, ~40 min
+```
+
+Each run lasts 120 s; the failure happens at 60 s (`--duration`, `--fail-at` to change).
+Clients request `test_100k.bin` every second (`--file`, `--interval`).
+
+| # | Experiment | Clients |
+|---|---|---|
+| 1 | Normal, nothing breaks | h11–h13 |
+| 2 | Server h1 killed at 60 s | h11–h13 |
+| 3 | The s1 link on the path in use cut at 60 s | h11–h13 |
+| 4 | The s4 link on the path in use slowed to 1 Mbps at 60 s | h11–h13 |
+| 5 | Six clients at once | h11–h16 |
+
+Results go to `experiments/results/exp<N>_<mode>/`:
+
+| File | Contents |
+|---|---|
+| `clients.csv` | One line per successful download: `timestamp,client_ip,file,bytes,response_time_ms` |
+| `events.csv` | Exact times of `start`, the failure (`server_killed`, `link_down`, `link_slowed`) and `end`, in the same timestamp format, for recovery time |
+| `summary.json` | Settings and per-client succeeded/failed request counts (a request counts as failed if its retry also failed) |
+| `controller.log` | Controller output, including every DECISION |
+| `client_output.txt` | What each client printed |
+
 ## Troubleshooting
 
 | Problem | Fix |
@@ -206,8 +291,19 @@ Full steps are in [`tests/test_cases.md`](tests/test_cases.md). Run all of them 
 | "File exists" starting Mininet | `sudo mn -c`. It also kills the controller, so start the controller again afterwards |
 | See exactly what a switch does | `sh ovs-ofctl -O OpenFlow13 dump-flows s1` in the Mininet CLI |
 
-## Still to do for D2
+## Known limitations
 
-- `monitor/health_check.py`: fill in `latency_ms` (currently `None`).
-- Use `link_load` from the link monitor to avoid congested paths.
-- `experiments/run_scenario.py`, `parse_logs.py`, `plot.py`: the 5 experiments and graphs.
+- **Server choice ignores latency and link load.** `latency_ms` is always `None` in the
+  controller, and the port statistics aren't used. A slow or congested link is not avoided
+  (experiment 4); only a link that goes down is.
+- **One path at a time.** All connections between the same two switches take the same shortest
+  path; traffic isn't split across s2 and s3.
+- **Detecting a dead server takes up to ~5–7 s** (reports every 2 s, 5 s timeout). Requests in
+  that window can fail and rely on the client's single retry.
+- **Connections to a server that dies are broken**, not moved: TCP state lives on that server.
+  The client's retry opens a new connection to a live server.
+- **Load is the number of open connections** a server reports, not bytes or CPU.
+- **The first packet of every connection goes through the controller**, adding a little setup
+  delay to each download.
+- **`static` mode never recovers** from a server or link failure. That is intentional: it is the
+  baseline.
