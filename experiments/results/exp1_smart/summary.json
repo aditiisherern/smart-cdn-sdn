@@ -1,0 +1,23 @@
+{
+  "experiment": 1,
+  "description": "normal",
+  "mode": "smart",
+  "duration_s": 120,
+  "fail_at_s": null,
+  "file": "test_100k.bin",
+  "interval_s": 1.0,
+  "clients": {
+    "h11": {
+      "succeeded": 93,
+      "failed": 0
+    },
+    "h12": {
+      "succeeded": 93,
+      "failed": 0
+    },
+    "h13": {
+      "succeeded": 93,
+      "failed": 0
+    }
+  }
+}

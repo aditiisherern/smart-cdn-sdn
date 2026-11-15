@@ -252,7 +252,9 @@ sudo python3 tests/run_d1_tests.py --mode static       # → tests/d1_results_st
 ```
 
 In `static` mode, tests 4 and 5 pass when the system does **not** recover, because static is
-the no-failover baseline. The table below is the smart-mode run from 2026-10-27.
+the no-failover baseline. On 2026-11-15 all three modes passed 6/6
+([smart](tests/d1_results.md), [round-robin](tests/d1_results_roundrobin.md),
+[static](tests/d1_results_static.md)). The table below is the first smart-mode run (2026-10-27).
 
 | # | Test | Expected result | Actual result |
 |---|---|---|---|
@@ -310,7 +312,58 @@ before the failure, for comparison: about 1–2 s when everything is healthy.
 
 ## Results
 
-_To be filled in from the full run (`run_scenario.py --all`, 120 s per run, failure at 60 s)._
+Full run on 2026-11-15: `run_scenario.py --all`, 120 s per run, failure at 60 s. Three clients
+(six in experiment 5) each request `test_100k.bin` from `10.0.0.100` every second. All numbers
+are from [`experiments/results/summary.csv`](experiments/results/summary.csv); graphs are in
+[`experiments/results/graphs/`](experiments/results/graphs/).
+
+**Recovery** is the longest any client waited for a successful download after the failure.
+With nothing wrong, that wait is about **1.29 s** (the 1 s gap between requests plus the
+download), so 1.29 s means no client noticed the failure.
+
+| Exp | Scenario | Mode | OK | Failed | Avg (ms) | p95 (ms) | Throughput (MB/s) | Recovery (s) |
+|---|---|---|---:|---:|---:|---:|---:|---:|
+| 1 | Normal | smart | 279 | 0 | 287 | 289 | 0.238 | – |
+| | | roundrobin | 279 | 0 | 287 | 288 | 0.238 | – |
+| | | static | 279 | 0 | 287 | 288 | 0.238 | – |
+| 2 | Server h1 killed | smart | 289 | **0** | 245 | 289 | 0.247 | **1.30** |
+| | | roundrobin | 291 | 2 | 222 | 288 | 0.248 | 2.56 |
+| | | static | 141 | 171 | 287 | 288 | 0.120 | never |
+| 3 | Link on path cut | smart | 279 | **0** | 287 | 288 | 0.238 | **1.29** |
+| | | roundrobin | 279 | 0 | 287 | 288 | 0.238 | 1.29 |
+| | | static | 141 | 15 | 287 | 288 | 0.120 | never |
+| 4 | Link on path slowed to 1 Mbps | smart | 208 | 0 | 720 | 1579 | 0.178 | 3.49 |
+| | | roundrobin | 208 | 0 | 720 | 1579 | 0.178 | 3.49 |
+| | | static | 208 | 0 | 721 | 1580 | 0.178 | 3.49 |
+| 5 | Six clients | smart | 561 | 0 | 289 | 290 | 0.479 | – |
+| | | roundrobin | 540 | 0 | 321 | 322 | 0.461 | – |
+| | | static | 561 | 0 | 289 | 292 | 0.479 | – |
+
+**What the numbers show**
+
+- **Server failure (exp 2): smart is the only mode with no failed requests and no extra wait**
+  (1.30 s, the same as normal). Round-robin keeps sending every third connection to the dead
+  server, so clients rely on their retry: 2 requests failed and one client waited 2.56 s.
+  Static never recovers: 171 requests failed and throughput halved.
+- **Link failure (exp 3): smart and round-robin both reroute with no failures and no extra wait**,
+  since both use the same rerouting. Static keeps using the dead link and never recovers; each
+  request hangs for its timeouts first, which is why it shows fewer failed requests than exp 2.
+- **Slow link (exp 4): all three modes are identical** (720 ms average, 3.5 s longest wait). The
+  controller doesn't use link load, so smart does not avoid the slowed link (see Known
+  limitations).
+- **Normal load (exp 1) and six clients (exp 5): almost no difference.** Every connection shares
+  the same 10 Mbps path, which is the bottleneck, not the servers: static, which sends
+  everything to h1, does as well as smart. Round-robin was slightly slower in exp 5 (321 vs
+  289 ms); we didn't investigate why.
+- **Why response times drop after the failure in exp 2:** the clients start in step, so they
+  always download at the same moment and share the path. The failed connection attempts knock
+  them out of step, so they overlap less. This is a side effect, not the system getting faster
+  (visible in `graphs/exp2_response_over_time.png`).
+
+**In short:** the smart controller's advantage shows when servers fail: zero failed requests and
+no noticeable recovery time, against two failures for round-robin and no recovery for the
+static baseline. For problems in the network itself it is no better than round-robin, because
+it chooses servers by load and reroutes only when a link goes down.
 
 ## Troubleshooting
 
@@ -336,5 +389,9 @@ _To be filled in from the full run (`run_scenario.py --all`, 120 s per run, fail
 - **Load is the number of open connections** a server reports, not bytes or CPU.
 - **The first packet of every connection goes through the controller**, adding a little setup
   delay to each download.
+- **Under heavy load the controller can fall behind on load reports.** In experiment 5
+  (round-robin) it briefly marked all three servers dead about 5 s in, then back up. Round-robin
+  ignores health so nothing failed, but in smart mode new connections would have been refused
+  for that moment.
 - **`static` mode never recovers** from a server or link failure. That is intentional: it is the
   baseline.

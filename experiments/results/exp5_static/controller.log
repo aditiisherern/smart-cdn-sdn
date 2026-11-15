@@ -1,0 +1,1713 @@
+loading app controller/cdn_controller.py
+loading app monitor/link_monitor.py
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app controller/cdn_controller.py of CDNController
+CDN controller starting in static mode
+instantiating app monitor/link_monitor.py of LinkMonitor
+instantiating app ryu.topology.switches of Switches
+instantiating app ryu.controller.ofp_handler of OFPHandler
+link up: s4 port 5 -> s3
+link up: s3 port 2 -> s4
+link up: s2 port 2 -> s4
+link up: s1 port 8 -> s3
+link up: s4 port 4 -> s2
+link up: s1 port 7 -> s2
+link up: s3 port 1 -> s1
+link up: s2 port 1 -> s1
+Switch 4 port 1 utilization: 0.07%
+Switch 4 port 4 utilization: 0.07%
+Switch 4 port 2 utilization: 0.08%
+Switch 4 port 5 utilization: 0.07%
+Switch 4 port 3 utilization: 0.07%
+Switch 3 port 1 utilization: 0.07%
+Switch 3 port 2 utilization: 0.07%
+Switch 2 port 1 utilization: 0.07%
+Switch 2 port 2 utilization: 0.06%
+Switch 1 port 8 utilization: 0.05%
+Switch 1 port 5 utilization: 0.06%
+Switch 1 port 7 utilization: 0.07%
+Switch 1 port 4 utilization: 0.07%
+Switch 1 port 6 utilization: 0.07%
+Switch 1 port 1 utilization: 0.07%
+Switch 1 port 2 utilization: 0.07%
+Switch 1 port 3 utilization: 0.07%
+host 10.0.0.2 00:00:00:00:00:02 at s4 port 2
+host 10.0.0.3 00:00:00:00:00:03 at s4 port 3
+host 10.0.0.1 00:00:00:00:00:01 at s4 port 1
+server 10.0.0.2 is UP
+server 10.0.0.3 is UP
+server 10.0.0.1 is UP
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.03%
+Switch 4 port 5 utilization: 0.02%
+Switch 4 port 3 utilization: 0.03%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.03%
+Switch 1 port 8 utilization: 0.04%
+Switch 1 port 5 utilization: 0.02%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 6 utilization: 0.02%
+Switch 1 port 1 utilization: 0.02%
+Switch 1 port 2 utilization: 0.02%
+Switch 1 port 3 utilization: 0.02%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.02%
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 0.02%
+Switch 4 port 3 utilization: 0.02%
+Switch 1 port 8 utilization: 0.02%
+Switch 1 port 5 utilization: 0.02%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 6 utilization: 0.02%
+Switch 1 port 1 utilization: 0.00%
+Switch 1 port 2 utilization: 0.01%
+Switch 1 port 3 utilization: 0.02%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.02%
+Switch 2 port 1 utilization: 0.03%
+Switch 2 port 2 utilization: 0.03%
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 0.01%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.00%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 2 utilization: 0.01%
+Switch 1 port 3 utilization: 0.02%
+Switch 4 port 1 utilization: 0.00%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 0.00%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 0.00%
+Switch 3 port 2 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.01%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 2 utilization: 0.01%
+Switch 1 port 3 utilization: 0.00%
+host 10.0.0.11 00:00:00:00:00:11 at s1 port 1
+host 10.0.0.13 00:00:00:00:00:13 at s1 port 3
+host 10.0.0.12 00:00:00:00:00:12 at s1 port 2
+host 10.0.0.14 00:00:00:00:00:14 at s1 port 4
+host 10.0.0.15 00:00:00:00:00:15 at s1 port 5
+host 10.0.0.16 00:00:00:00:00:16 at s1 port 6
+DECISION 10.0.0.11:39566 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53076 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.00%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 0.00%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 0.00%
+Switch 3 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.01%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 2 utilization: 0.00%
+Switch 1 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.12:40028 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:47322 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:58028 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:58306 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:39570 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53086 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:40038 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:47338 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:58038 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:58320 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.23%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 46.36%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 46.10%
+Switch 3 port 2 utilization: 1.22%
+Switch 1 port 8 utilization: 1.22%
+Switch 1 port 5 utilization: 6.61%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.10%
+Switch 1 port 6 utilization: 6.09%
+Switch 1 port 1 utilization: 8.44%
+Switch 1 port 2 utilization: 8.45%
+Switch 1 port 3 utilization: 8.45%
+DECISION 10.0.0.11:39578 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53102 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:40046 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:47348 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:58042 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:58322 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.79%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 29.50%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.77%
+Switch 1 port 5 utilization: 6.03%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 4.56%
+Switch 1 port 6 utilization: 6.57%
+Switch 1 port 1 utilization: 4.22%
+Switch 1 port 2 utilization: 4.22%
+Switch 1 port 3 utilization: 4.22%
+Switch 3 port 1 utilization: 29.73%
+Switch 3 port 2 utilization: 0.79%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.11:60168 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46740 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57720 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:42416 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33520 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:37976 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:60180 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46744 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57730 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:42418 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:37984 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33530 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.16%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 44.43%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.17%
+Switch 1 port 5 utilization: 5.94%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 7.12%
+Switch 1 port 6 utilization: 5.93%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 44.18%
+Switch 3 port 2 utilization: 1.16%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.11:60192 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46746 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57744 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:42432 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:37986 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33540 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:60208 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46758 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57748 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.95%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 35.95%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.95%
+Switch 1 port 5 utilization: 6.68%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 5.50%
+Switch 1 port 6 utilization: 6.68%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 4.75%
+Switch 3 port 1 utilization: 36.19%
+Switch 3 port 2 utilization: 0.95%
+DECISION 10.0.0.14:42448 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:37996 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33544 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:60214 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46774 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57762 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:42464 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38000 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33548 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.19%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 45.67%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.18%
+Switch 1 port 5 utilization: 8.40%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 7.86%
+Switch 3 port 1 utilization: 45.65%
+Switch 3 port 2 utilization: 1.19%
+DECISION 10.0.0.11:60230 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46776 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57772 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:42478 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38014 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33558 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:60246 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46792 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57788 -> 10.0.0.1 (static)
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 37.86%
+Switch 3 port 2 utilization: 0.99%
+Switch 1 port 8 utilization: 0.99%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 4 port 1 utilization: 0.99%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 37.77%
+Switch 4 port 3 utilization: 0.00%
+DECISION 10.0.0.14:42488 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38024 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33560 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:60260 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46802 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57792 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:42492 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38032 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:33562 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:60272 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46818 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57800 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.17%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 45.31%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.18%
+Switch 1 port 5 utilization: 8.40%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 8.30%
+Switch 1 port 2 utilization: 5.58%
+Switch 1 port 3 utilization: 5.93%
+Switch 3 port 1 utilization: 44.97%
+Switch 3 port 2 utilization: 1.17%
+DECISION 10.0.0.14:41766 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39602 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50136 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:56062 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37418 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57484 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.80%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 30.38%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 30.63%
+Switch 3 port 2 utilization: 0.80%
+Switch 1 port 8 utilization: 0.79%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 4.32%
+Switch 1 port 2 utilization: 7.03%
+Switch 1 port 3 utilization: 6.68%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:41770 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39610 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50148 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:56074 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37430 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57490 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41786 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39620 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50152 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:56086 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37434 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57500 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.32%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.42%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 50.38%
+Switch 3 port 2 utilization: 1.31%
+DECISION 10.0.0.14:41800 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39634 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50164 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:56096 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37450 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57502 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41802 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39646 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50180 -> 10.0.0.1 (static)
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 4 port 1 utilization: 0.68%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.02%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 4.22%
+Switch 1 port 6 utilization: 4.22%
+Switch 1 port 1 utilization: 4.22%
+Switch 1 port 2 utilization: 4.22%
+Switch 1 port 3 utilization: 4.22%
+Switch 3 port 1 utilization: 25.24%
+Switch 3 port 2 utilization: 0.67%
+DECISION 10.0.0.11:56100 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37454 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57506 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41812 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39662 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50190 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:56110 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37466 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57514 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.31%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.41%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 50.43%
+Switch 3 port 2 utilization: 1.32%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.02%
+DECISION 10.0.0.14:41814 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39676 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50194 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:56118 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:37472 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57524 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41820 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39690 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:50210 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.81%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 31.11%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 30.87%
+Switch 3 port 2 utilization: 0.81%
+Switch 1 port 8 utilization: 0.82%
+Switch 1 port 5 utilization: 5.94%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 6.41%
+Switch 1 port 6 utilization: 5.93%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.11:57632 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36446 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41940 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56728 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51816 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59194 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57640 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36448 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41946 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.16%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 44.52%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.16%
+Switch 1 port 5 utilization: 6.68%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 6.21%
+Switch 1 port 6 utilization: 6.68%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 44.75%
+Switch 3 port 2 utilization: 1.16%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:56744 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51826 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59200 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57654 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36454 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41954 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56750 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51832 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59206 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57656 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36464 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41956 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.97%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 37.80%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 37.71%
+Switch 3 port 2 utilization: 0.97%
+Switch 1 port 8 utilization: 0.99%
+Switch 1 port 5 utilization: 8.30%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 4.20%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:56762 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51840 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59214 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57662 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36466 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41966 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 37.82%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 37.91%
+Switch 3 port 2 utilization: 1.01%
+Switch 1 port 8 utilization: 0.99%
+Switch 1 port 5 utilization: 4.31%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.14:56772 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51856 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59228 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57670 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36470 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41972 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56788 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51858 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59232 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57686 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36486 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41974 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.14%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 43.71%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 43.47%
+Switch 3 port 2 utilization: 1.14%
+Switch 1 port 8 utilization: 1.15%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 6.41%
+Switch 1 port 2 utilization: 5.93%
+Switch 1 port 3 utilization: 5.93%
+DECISION 10.0.0.14:56794 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:51874 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:59238 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57696 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36488 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:41988 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.83%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 31.91%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 32.16%
+Switch 3 port 2 utilization: 0.83%
+Switch 1 port 8 utilization: 0.83%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 6.21%
+Switch 1 port 2 utilization: 6.68%
+Switch 1 port 3 utilization: 6.68%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:37244 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:37960 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51400 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33052 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46624 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51424 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:37246 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:37968 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51412 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33056 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46640 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51440 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.30%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.41%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.31%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.30%
+Switch 1 port 3 utilization: 8.40%
+Switch 3 port 1 utilization: 50.37%
+Switch 3 port 2 utilization: 1.30%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:37260 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51418 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33062 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46642 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51442 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:37264 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.68%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 25.18%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.20%
+Switch 1 port 6 utilization: 4.20%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.30%
+Switch 1 port 3 utilization: 4.20%
+Switch 3 port 1 utilization: 25.19%
+Switch 3 port 2 utilization: 0.68%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.15:51426 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33078 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46648 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51446 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:37274 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38002 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51432 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33092 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46654 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51452 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.32%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.48%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.42%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.42%
+Switch 1 port 6 utilization: 8.42%
+Switch 1 port 1 utilization: 8.42%
+Switch 1 port 2 utilization: 8.42%
+Switch 1 port 3 utilization: 8.42%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 50.46%
+Switch 3 port 2 utilization: 1.32%
+DECISION 10.0.0.14:37280 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38004 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51434 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33106 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46656 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51468 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:37290 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38012 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51446 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.79%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 30.27%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 30.05%
+Switch 3 port 2 utilization: 0.80%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.80%
+Switch 1 port 5 utilization: 5.57%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 5.93%
+Switch 1 port 6 utilization: 5.93%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.11:33118 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46670 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51484 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:37302 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:38020 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:51458 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33126 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:46682 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:51498 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.18%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 45.35%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 45.58%
+Switch 3 port 2 utilization: 1.18%
+Switch 1 port 8 utilization: 1.18%
+Switch 1 port 5 utilization: 7.03%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 6.68%
+Switch 1 port 6 utilization: 6.68%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.14:57492 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43002 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36946 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:32964 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39596 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42804 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:57506 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43010 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36950 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:32966 -> 10.0.0.1 (static)
+Switch 1 port 8 utilization: 0.96%
+Switch 1 port 5 utilization: 8.07%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.19%
+Switch 1 port 6 utilization: 8.07%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 4 port 1 utilization: 0.95%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 37.19%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 36.87%
+Switch 3 port 2 utilization: 0.95%
+DECISION 10.0.0.13:39610 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42812 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:57516 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43012 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36964 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:32980 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39618 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42818 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.03%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 38.42%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.02%
+Switch 1 port 5 utilization: 4.54%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.42%
+Switch 1 port 6 utilization: 4.55%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 38.72%
+Switch 3 port 2 utilization: 1.03%
+DECISION 10.0.0.14:57532 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43024 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36974 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:32990 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39626 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42824 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:57542 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43036 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36980 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33004 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39634 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42830 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.12%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 42.90%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.13%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 5.93%
+Switch 1 port 2 utilization: 5.58%
+Switch 1 port 3 utilization: 5.94%
+Switch 3 port 1 utilization: 42.66%
+Switch 3 port 2 utilization: 1.12%
+DECISION 10.0.0.14:57556 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43052 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36990 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33010 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39636 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42838 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.86%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.02%
+Switch 4 port 5 utilization: 32.74%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 33.00%
+Switch 3 port 2 utilization: 0.86%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.85%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 6.68%
+Switch 1 port 2 utilization: 7.04%
+Switch 1 port 3 utilization: 6.68%
+DECISION 10.0.0.14:57572 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43058 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:36998 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33014 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39652 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42854 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:57588 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:43074 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:37014 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:33030 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:39660 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:42856 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.27%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 49.66%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 1.29%
+Switch 1 port 5 utilization: 8.42%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 8.42%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.07%
+Switch 1 port 2 utilization: 8.07%
+Switch 1 port 3 utilization: 8.07%
+Switch 3 port 1 utilization: 49.51%
+Switch 3 port 2 utilization: 1.27%
+DECISION 10.0.0.14:60682 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54480 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:42974 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:53686 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41740 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48764 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.70%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 26.00%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 26.13%
+Switch 3 port 2 utilization: 0.71%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.70%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 4.54%
+Switch 1 port 2 utilization: 4.55%
+Switch 1 port 3 utilization: 4.55%
+DECISION 10.0.0.14:60688 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54482 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:42978 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:53702 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41746 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48774 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:60702 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54484 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:42984 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:53704 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41748 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48790 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.32%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.42%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 50.39%
+Switch 3 port 2 utilization: 1.32%
+DECISION 10.0.0.14:60716 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54490 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:42994 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:53720 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41754 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48792 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:60722 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54496 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:42996 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.77%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 29.33%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 29.11%
+Switch 3 port 2 utilization: 0.77%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.78%
+Switch 1 port 5 utilization: 4.75%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 5.93%
+Switch 1 port 6 utilization: 5.81%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.11:53734 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41768 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48798 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:60732 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54504 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:43002 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:53738 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41770 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48802 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.20%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 46.28%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 46.52%
+Switch 3 port 2 utilization: 1.20%
+Switch 1 port 8 utilization: 1.20%
+Switch 1 port 5 utilization: 7.86%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 6.68%
+Switch 1 port 6 utilization: 6.80%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.14:60736 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54508 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:43010 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:53754 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:41784 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:48818 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:60752 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:54518 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:43012 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.93%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 36.20%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 35.97%
+Switch 3 port 2 utilization: 0.93%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.93%
+Switch 1 port 5 utilization: 7.24%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.06%
+Switch 1 port 6 utilization: 8.07%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.11:41496 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54748 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39038 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:32962 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39434 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47300 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41500 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54750 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39044 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.05%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 39.43%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 39.66%
+Switch 3 port 2 utilization: 1.05%
+Switch 1 port 8 utilization: 1.04%
+Switch 1 port 5 utilization: 5.38%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.55%
+Switch 1 port 6 utilization: 4.55%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.14:32976 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39450 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47302 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41512 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54766 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39060 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:32982 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39452 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47306 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41522 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54770 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39076 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.10%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 42.04%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 41.79%
+Switch 3 port 2 utilization: 1.10%
+Switch 1 port 8 utilization: 1.11%
+Switch 1 port 5 utilization: 8.40%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 5.93%
+Switch 1 port 2 utilization: 4.75%
+Switch 1 port 3 utilization: 5.93%
+DECISION 10.0.0.14:32992 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39454 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47308 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41536 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54784 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39078 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.87%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 33.58%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 0.87%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.21%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 6.68%
+Switch 1 port 2 utilization: 7.87%
+Switch 1 port 3 utilization: 6.68%
+Switch 3 port 1 utilization: 33.81%
+Switch 3 port 2 utilization: 0.87%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:32996 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39458 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47316 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41540 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54788 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39090 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:33000 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39466 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47324 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41554 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54792 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39092 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.25%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 48.90%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 48.68%
+Switch 3 port 2 utilization: 1.26%
+Switch 1 port 8 utilization: 1.26%
+Switch 1 port 5 utilization: 8.40%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 8.06%
+Switch 1 port 2 utilization: 7.35%
+Switch 1 port 3 utilization: 8.06%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:33016 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39482 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:47332 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:41570 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:54806 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:39106 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.72%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 26.72%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 26.93%
+Switch 3 port 2 utilization: 0.72%
+Switch 1 port 8 utilization: 0.72%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.20%
+Switch 1 port 6 utilization: 4.20%
+Switch 1 port 1 utilization: 4.54%
+Switch 1 port 2 utilization: 5.26%
+Switch 1 port 3 utilization: 4.54%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:41476 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52582 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46292 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:37118 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34570 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57894 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41480 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52584 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46294 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:37120 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34580 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57910 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.32%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 50.40%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 50.43%
+Switch 3 port 2 utilization: 1.32%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.14:41486 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52592 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46304 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:37124 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34582 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57920 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41500 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52596 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46312 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.76%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 28.61%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 0.76%
+Switch 1 port 5 utilization: 4.75%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 5.93%
+Switch 1 port 6 utilization: 5.11%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 28.36%
+Switch 3 port 2 utilization: 0.76%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.11:37128 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34592 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57934 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41516 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52604 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46322 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:37130 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34606 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57936 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 46.99%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.21%
+Switch 1 port 5 utilization: 7.86%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 6.68%
+Switch 1 port 6 utilization: 7.51%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 47.22%
+Switch 3 port 2 utilization: 1.22%
+DECISION 10.0.0.14:41518 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52608 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46332 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:37132 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34618 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57952 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41524 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52616 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46346 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.91%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 35.37%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.92%
+Switch 1 port 5 utilization: 6.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.07%
+Switch 1 port 6 utilization: 8.07%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 35.27%
+Switch 3 port 2 utilization: 0.91%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.11:37142 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34622 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57962 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:41538 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:52620 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:46348 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:37148 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:34638 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:57974 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.07%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 40.26%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 40.39%
+Switch 3 port 2 utilization: 1.07%
+Switch 1 port 8 utilization: 1.06%
+Switch 1 port 5 utilization: 6.20%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.55%
+Switch 1 port 6 utilization: 4.55%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.14:39608 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45016 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39528 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35256 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36542 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46534 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:39620 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45024 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39532 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35266 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36550 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46540 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.09%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 41.21%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.09%
+Switch 1 port 5 utilization: 8.40%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 5.93%
+Switch 1 port 2 utilization: 4.75%
+Switch 1 port 3 utilization: 5.22%
+Switch 3 port 1 utilization: 41.07%
+Switch 3 port 2 utilization: 1.09%
+DECISION 10.0.0.14:39634 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45036 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39540 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35278 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36564 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46542 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.89%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 34.40%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 34.54%
+Switch 3 port 2 utilization: 0.89%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.88%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.20%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 6.68%
+Switch 1 port 2 utilization: 7.86%
+Switch 1 port 3 utilization: 7.39%
+DECISION 10.0.0.14:39642 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45050 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39556 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35292 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36568 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46554 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:39656 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45054 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39568 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35296 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36572 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46560 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.24%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 48.09%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 1.25%
+Switch 1 port 5 utilization: 8.42%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.07%
+Switch 1 port 2 utilization: 6.53%
+Switch 1 port 3 utilization: 8.07%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 47.84%
+Switch 3 port 2 utilization: 1.24%
+DECISION 10.0.0.14:39658 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45060 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39570 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35312 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36580 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46564 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.74%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 27.54%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 27.79%
+Switch 3 port 2 utilization: 0.74%
+Switch 1 port 8 utilization: 0.73%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.20%
+Switch 1 port 6 utilization: 4.21%
+Switch 1 port 1 utilization: 4.55%
+Switch 1 port 2 utilization: 6.09%
+Switch 1 port 3 utilization: 4.55%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:39664 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45076 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39586 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35322 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36596 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46576 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:39670 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:45078 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:39596 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:35336 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:36600 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:46590 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.32%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.42%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 50.39%
+Switch 3 port 2 utilization: 1.32%
+DECISION 10.0.0.14:56472 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44300 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60088 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:58162 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47694 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35322 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56484 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44314 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60090 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.74%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 27.66%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 27.44%
+Switch 3 port 2 utilization: 0.74%
+Switch 1 port 8 utilization: 0.74%
+Switch 1 port 5 utilization: 4.75%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 5.34%
+Switch 1 port 6 utilization: 4.75%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.11:58164 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47708 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35324 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56488 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44316 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60104 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:58172 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47710 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35326 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.24%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 47.94%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 48.18%
+Switch 3 port 2 utilization: 1.24%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.23%
+Switch 1 port 5 utilization: 7.86%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 7.27%
+Switch 1 port 6 utilization: 7.86%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+DECISION 10.0.0.14:56496 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44318 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60116 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:58176 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47724 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35338 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56506 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44324 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60126 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.89%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 34.42%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.90%
+Switch 1 port 5 utilization: 5.94%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.07%
+Switch 1 port 6 utilization: 7.59%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 34.16%
+Switch 3 port 2 utilization: 0.89%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.11:58186 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47736 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35342 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56512 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44338 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60140 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:58202 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47750 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35344 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.09%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 41.21%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 1.08%
+Switch 1 port 5 utilization: 6.68%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.55%
+Switch 1 port 6 utilization: 5.02%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 41.45%
+Switch 3 port 2 utilization: 1.09%
+DECISION 10.0.0.14:56520 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44344 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60150 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:58204 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:47760 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35346 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:56530 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:44356 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:60158 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57214 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57008 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52308 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.06%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 40.14%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.07%
+Switch 1 port 5 utilization: 8.40%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.40%
+Switch 1 port 6 utilization: 8.40%
+Switch 1 port 1 utilization: 5.22%
+Switch 1 port 2 utilization: 4.75%
+Switch 1 port 3 utilization: 4.75%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 39.90%
+Switch 3 port 2 utilization: 1.06%
+DECISION 10.0.0.14:38894 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39470 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40658 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57218 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57012 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52324 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.92%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 35.46%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 0.91%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 4.20%
+Switch 1 port 6 utilization: 4.20%
+Switch 1 port 1 utilization: 7.39%
+Switch 1 port 2 utilization: 7.86%
+Switch 1 port 3 utilization: 7.86%
+Switch 3 port 1 utilization: 35.68%
+Switch 3 port 2 utilization: 0.92%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:38896 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39486 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40660 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57234 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57026 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52334 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:38908 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39488 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40670 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57242 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57030 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52336 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.21%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 46.92%
+Switch 4 port 3 utilization: 0.00%
+Switch 3 port 1 utilization: 46.74%
+Switch 3 port 2 utilization: 1.21%
+Switch 1 port 8 utilization: 1.22%
+Switch 1 port 5 utilization: 8.42%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 8.42%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.07%
+Switch 1 port 2 utilization: 5.94%
+Switch 1 port 3 utilization: 7.48%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:38914 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39504 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40686 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57244 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57040 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52342 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.77%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 28.71%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 28.92%
+Switch 3 port 2 utilization: 0.76%
+Switch 1 port 8 utilization: 0.76%
+Switch 1 port 5 utilization: 4.20%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.20%
+Switch 1 port 6 utilization: 4.20%
+Switch 1 port 1 utilization: 4.54%
+Switch 1 port 2 utilization: 6.67%
+Switch 1 port 3 utilization: 5.13%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.14:38924 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39506 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40698 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57256 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57054 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52346 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:38932 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39510 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40700 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57264 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57070 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52348 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.32%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 50.41%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 1.32%
+Switch 1 port 5 utilization: 8.41%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.41%
+Switch 1 port 6 utilization: 8.41%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 50.41%
+Switch 3 port 2 utilization: 1.32%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.14:38944 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:39512 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:40706 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:57276 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:57082 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:52362 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:53504 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:34126 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:55284 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.71%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 26.54%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 26.44%
+Switch 3 port 2 utilization: 0.71%
+Switch 1 port 8 utilization: 0.71%
+Switch 1 port 5 utilization: 4.21%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.75%
+Switch 1 port 6 utilization: 4.75%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.11:54884 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53580 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35038 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:53512 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:34140 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:55294 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:54896 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53582 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35048 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 1.28%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 49.10%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 1.26%
+Switch 1 port 5 utilization: 8.42%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 7.88%
+Switch 1 port 6 utilization: 7.88%
+Switch 1 port 1 utilization: 8.43%
+Switch 1 port 2 utilization: 8.42%
+Switch 1 port 3 utilization: 8.42%
+Switch 3 port 1 utilization: 49.20%
+Switch 3 port 2 utilization: 1.28%
+DECISION 10.0.0.14:53526 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:34152 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:55304 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:54910 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53584 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35050 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:53542 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:34156 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:55314 -> 10.0.0.1 (static)
+Switch 4 port 1 utilization: 0.86%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 33.35%
+Switch 4 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.88%
+Switch 1 port 5 utilization: 5.93%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 8.06%
+Switch 1 port 6 utilization: 6.64%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 33.23%
+Switch 3 port 2 utilization: 0.87%
+DECISION 10.0.0.11:54924 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53592 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35056 -> 10.0.0.1 (static)
+DECISION 10.0.0.14:53556 -> 10.0.0.1 (static)
+DECISION 10.0.0.16:34160 -> 10.0.0.1 (static)
+DECISION 10.0.0.15:55324 -> 10.0.0.1 (static)
+DECISION 10.0.0.11:54934 -> 10.0.0.1 (static)
+DECISION 10.0.0.13:53602 -> 10.0.0.1 (static)
+DECISION 10.0.0.12:35062 -> 10.0.0.1 (static)
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 5 utilization: 42.07%
+Switch 1 port 8 utilization: 1.10%
+Switch 1 port 5 utilization: 6.65%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 4.53%
+Switch 1 port 6 utilization: 5.94%
+Switch 1 port 3 utilization: 8.37%
+Switch 3 port 1 utilization: 42.19%
+Switch 3 port 2 utilization: 1.10%
+link down: s1-s2 (static mode: not rerouting)
+link down: s2-s1 (static mode: not rerouting)
+link down: s3-s1 (static mode: not rerouting)
+link down: s1-s3 (static mode: not rerouting)
+link down: s4-s2 (static mode: not rerouting)
+link down: s2-s4 (static mode: not rerouting)
+link down: s4-s3 (static mode: not rerouting)
+link down: s3-s4 (static mode: not rerouting)

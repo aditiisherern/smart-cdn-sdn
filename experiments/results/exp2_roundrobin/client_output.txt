@@ -1,0 +1,372 @@
+===== h11 =====
+Downloaded test_100k.bin: 102400 bytes in 299.087 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.762 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.118 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.513 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.280 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.307 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.210 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.310 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.972 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.253 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.360 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.228 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.284 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.605 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.085 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.098 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.021 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.700 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.072 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.221 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.453 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.776 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.079 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.048 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.333 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.211 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.303 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.353 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.960 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.227 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.458 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.909 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.030 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.310 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.128 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.305 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.731 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.596 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.181 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.841 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.278 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.635 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.310 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.186 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.044 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.381 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.247 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 206.661 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 219.747 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 196.908 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 203.549 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 165.942 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.047 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.317 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.105 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.789 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.438 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.943 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.156 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.655 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.742 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.966 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 562.930 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 171.791 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 199.218 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.575 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 166.992 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.183 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.355 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.673 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.669 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.232 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.929 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.980 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.954 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.428 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.807 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.031 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.027 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.858 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.668 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.103 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.856 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.065 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.142 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.283 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.289 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.626 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 167.046 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.410 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.386 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.471 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.452 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.390 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.280 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.448 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.069 ms -> downloads/10.0.0.11_test_100k.bin
+
+===== h12 =====
+Downloaded test_100k.bin: 102400 bytes in 294.157 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.404 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.994 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.191 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.194 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.517 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.265 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.554 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.853 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.236 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.317 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.417 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.346 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.163 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.192 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.001 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.042 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.630 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.520 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.148 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.468 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.712 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.944 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.064 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.185 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.801 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.112 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.762 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.744 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.744 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.680 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.864 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.171 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.224 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.071 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.817 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.694 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.012 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.824 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.617 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.215 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.830 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.289 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.282 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.141 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.792 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.980 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 206.158 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 176.275 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 196.988 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.199 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.691 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.368 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.526 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.158 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.360 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.154 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.071 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.450 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.800 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.896 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.448 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.776 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 137.889 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.810 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.590 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.382 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.280 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.111 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.651 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.342 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.704 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.712 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.196 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.283 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.588 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.194 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.120 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.865 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.489 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.953 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.076 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.698 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.150 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.175 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.984 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.141 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.483 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.730 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.937 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.088 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.379 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.005 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.264 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.211 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.466 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.343 ms -> downloads/10.0.0.12_test_100k.bin
+
+===== h13 =====
+Downloaded test_100k.bin: 102400 bytes in 291.641 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.530 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.870 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.288 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.186 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.125 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.122 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.176 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.832 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.072 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.191 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.023 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.808 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.276 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.853 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.108 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.758 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.267 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.430 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.905 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.075 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.368 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.576 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.940 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.303 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.367 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.610 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.951 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.986 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.848 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.216 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.630 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.251 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.098 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.799 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.717 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.529 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.877 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.596 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.687 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.212 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.696 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.241 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.048 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.957 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.495 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.753 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 140.173 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.518 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.800 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.343 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.225 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.361 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.134 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.890 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.790 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.494 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.490 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.626 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.712 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.167 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 161.725 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 565.036 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 220.293 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 199.679 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 202.988 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 167.209 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.594 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.871 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.355 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.841 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.741 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.942 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.922 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.565 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.046 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 140.014 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.183 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.888 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.912 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.134 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.358 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.258 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.463 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.435 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 162.401 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 137.923 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 161.262 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 141.519 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 165.759 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.855 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 163.500 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.946 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 164.236 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 139.369 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Downloaded test_100k.bin: 102400 bytes in 166.261 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 138.442 ms -> downloads/10.0.0.13_test_100k.bin
+

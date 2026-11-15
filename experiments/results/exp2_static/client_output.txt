@@ -1,0 +1,489 @@
+===== h11 =====
+Downloaded test_100k.bin: 102400 bytes in 298.520 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.632 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.872 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.200 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.766 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.234 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.024 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.009 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.309 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.331 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.733 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.480 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.131 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.867 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.885 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.632 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.172 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.197 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.130 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.547 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.055 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.718 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.706 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.515 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.677 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.322 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.770 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.133 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.976 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.226 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.697 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.396 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.451 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.303 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.693 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.977 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.191 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.351 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.546 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 284.826 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 284.783 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.735 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.556 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.712 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.393 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.167 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.177 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+
+===== h12 =====
+Downloaded test_100k.bin: 102400 bytes in 312.282 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.318 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.101 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.612 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.493 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.061 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.955 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.238 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.349 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.677 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.304 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.812 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.313 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.144 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.951 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.706 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.693 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.721 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 284.933 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.570 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.453 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.965 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.435 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.702 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.159 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.426 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.928 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.339 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.223 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.490 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.251 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.654 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.822 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.077 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.218 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.434 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.989 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.888 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.509 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.106 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 284.577 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.073 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.526 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.338 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.456 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.467 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.024 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+
+===== h13 =====
+Downloaded test_100k.bin: 102400 bytes in 305.274 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.620 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.995 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.586 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.926 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.346 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.246 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.350 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.406 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.494 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.821 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.088 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.230 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.118 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.927 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.799 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.294 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.538 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.768 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.301 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.263 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.575 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.448 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.256 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.406 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.251 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.870 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.224 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.041 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.188 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.205 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.089 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.185 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.959 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.928 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.443 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.976 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.834 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.490 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 283.035 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.017 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.725 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.466 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.561 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.559 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.108 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.575 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+Request failed (attempt 1): [Errno 111] Connection refused
+Request failed (attempt 2): [Errno 111] Connection refused
+

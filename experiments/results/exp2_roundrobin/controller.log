@@ -1,0 +1,1507 @@
+loading app controller/cdn_controller.py
+loading app monitor/link_monitor.py
+loading app ryu.controller.ofp_handler
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app controller/cdn_controller.py of CDNController
+CDN controller starting in roundrobin mode
+instantiating app monitor/link_monitor.py of LinkMonitor
+instantiating app ryu.controller.ofp_handler of OFPHandler
+instantiating app ryu.topology.switches of Switches
+link up: s4 port 5 -> s3
+link up: s1 port 8 -> s3
+link up: s4 port 4 -> s2
+link up: s1 port 7 -> s2
+link up: s3 port 2 -> s4
+link up: s3 port 1 -> s1
+link up: s2 port 1 -> s1
+link up: s2 port 2 -> s4
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.02%
+Switch 4 port 5 utilization: 0.02%
+Switch 4 port 3 utilization: 0.02%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.02%
+Switch 2 port 1 utilization: 0.03%
+Switch 2 port 2 utilization: 0.02%
+Switch 1 port 8 utilization: 0.02%
+Switch 1 port 5 utilization: 0.02%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 6 utilization: 0.03%
+Switch 1 port 1 utilization: 0.02%
+Switch 1 port 2 utilization: 0.02%
+Switch 1 port 3 utilization: 0.02%
+host 10.0.0.2 00:00:00:00:00:02 at s4 port 2
+host 10.0.0.3 00:00:00:00:00:03 at s4 port 3
+host 10.0.0.1 00:00:00:00:00:01 at s4 port 1
+server 10.0.0.2 is UP
+server 10.0.0.3 is UP
+server 10.0.0.1 is UP
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.02%
+Switch 4 port 5 utilization: 0.02%
+Switch 4 port 3 utilization: 0.02%
+Switch 1 port 8 utilization: 0.02%
+Switch 1 port 5 utilization: 0.02%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 6 utilization: 0.02%
+Switch 1 port 1 utilization: 0.02%
+Switch 1 port 2 utilization: 0.02%
+Switch 1 port 3 utilization: 0.02%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.02%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.02%
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.01%
+Switch 4 port 5 utilization: 0.01%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.01%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 2 utilization: 0.01%
+Switch 1 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.02%
+Switch 3 port 1 utilization: 0.00%
+Switch 3 port 2 utilization: 0.01%
+Switch 4 port 1 utilization: 0.00%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 0.00%
+Switch 4 port 3 utilization: 0.00%
+Switch 1 port 8 utilization: 0.00%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 0.00%
+Switch 1 port 2 utilization: 0.00%
+Switch 1 port 3 utilization: 0.01%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.01%
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 0.00%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 0.00%
+Switch 3 port 2 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.00%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 2 utilization: 0.01%
+Switch 1 port 3 utilization: 0.00%
+host 10.0.0.13 00:00:00:00:00:13 at s1 port 3
+DECISION 10.0.0.13:56846 -> 10.0.0.1 (round-robin)
+host 10.0.0.12 00:00:00:00:00:12 at s1 port 2
+host 10.0.0.11 00:00:00:00:00:11 at s1 port 1
+DECISION 10.0.0.12:36432 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51068 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:56854 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36444 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51084 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.23%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.23%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.23%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 25.19%
+Switch 3 port 2 utilization: 0.66%
+DECISION 10.0.0.13:56860 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36456 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51090 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.12%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.62%
+Switch 4 port 3 utilization: 0.12%
+Switch 3 port 1 utilization: 12.62%
+Switch 3 port 2 utilization: 0.34%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.34%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.13:56870 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36464 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51104 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:56872 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36468 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51108 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.66%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.13:56884 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36476 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51110 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:46210 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51932 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36260 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.14%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 13.82%
+Switch 4 port 3 utilization: 0.12%
+Switch 1 port 8 utilization: 0.38%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.69%
+Switch 1 port 3 utilization: 4.75%
+Switch 3 port 1 utilization: 13.62%
+Switch 3 port 2 utilization: 0.37%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:46214 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51938 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36276 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.20%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.21%
+Switch 4 port 5 utilization: 24.00%
+Switch 4 port 3 utilization: 0.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.61%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 7.93%
+Switch 1 port 3 utilization: 7.87%
+Switch 3 port 1 utilization: 24.19%
+Switch 3 port 2 utilization: 0.62%
+DECISION 10.0.0.13:46222 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51954 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36282 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:46226 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51968 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36290 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.21%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 20.64%
+Switch 4 port 3 utilization: 0.17%
+Switch 3 port 1 utilization: 20.41%
+Switch 3 port 2 utilization: 0.53%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.54%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 5.93%
+Switch 1 port 2 utilization: 6.40%
+Switch 1 port 3 utilization: 8.06%
+DECISION 10.0.0.13:46236 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51972 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36302 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.13%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 17.19%
+Switch 4 port 3 utilization: 0.17%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.45%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 6.68%
+Switch 1 port 2 utilization: 6.21%
+Switch 1 port 3 utilization: 4.55%
+Switch 3 port 1 utilization: 17.41%
+Switch 3 port 2 utilization: 0.46%
+DECISION 10.0.0.13:46246 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51976 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36308 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:46254 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51984 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36320 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.23%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.23%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.66%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.13:46258 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:52000 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:36328 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.11%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.61%
+Switch 4 port 3 utilization: 0.11%
+Switch 3 port 1 utilization: 12.62%
+Switch 3 port 2 utilization: 0.33%
+Switch 1 port 8 utilization: 0.34%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:33966 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51536 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42248 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33974 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51552 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42250 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.23%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.23%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.23%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.02%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.42%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 25.19%
+Switch 3 port 2 utilization: 0.67%
+DECISION 10.0.0.13:33984 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51554 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42256 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.12%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.61%
+Switch 4 port 3 utilization: 0.11%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.33%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 4.20%
+Switch 3 port 1 utilization: 12.62%
+Switch 3 port 2 utilization: 0.34%
+DECISION 10.0.0.13:33994 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51564 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42272 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33996 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51570 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42288 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.22%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.66%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.13:34006 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51572 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42296 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:34016 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51584 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42312 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.12%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.62%
+Switch 4 port 3 utilization: 0.12%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.35%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 12.61%
+Switch 3 port 2 utilization: 0.35%
+DECISION 10.0.0.13:34030 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:51594 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42316 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.21%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.19%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.65%
+Switch 1 port 8 utilization: 0.64%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+DECISION 10.0.0.13:32976 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47598 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60380 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:32982 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47608 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60394 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.19%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 19.45%
+Switch 4 port 3 utilization: 0.17%
+Switch 1 port 8 utilization: 0.51%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 5.93%
+Switch 1 port 2 utilization: 5.93%
+Switch 1 port 3 utilization: 7.48%
+Switch 3 port 1 utilization: 19.32%
+Switch 3 port 2 utilization: 0.51%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:32984 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47616 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60400 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.15%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 18.37%
+Switch 4 port 3 utilization: 0.17%
+Switch 3 port 1 utilization: 18.50%
+Switch 3 port 2 utilization: 0.48%
+Switch 1 port 8 utilization: 0.48%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 6.68%
+Switch 1 port 2 utilization: 6.68%
+Switch 1 port 3 utilization: 5.14%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:32994 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47624 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60404 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33000 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47630 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60412 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.22%
+Switch 3 port 1 utilization: 25.20%
+Switch 3 port 2 utilization: 0.66%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.13:33002 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47638 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60422 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.11%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.61%
+Switch 4 port 3 utilization: 0.11%
+Switch 1 port 8 utilization: 0.33%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 12.60%
+Switch 3 port 2 utilization: 0.33%
+DECISION 10.0.0.13:33008 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47654 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60428 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33018 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:47662 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:60442 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.23%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.66%
+DECISION 10.0.0.13:40988 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39738 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39488 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.12%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.61%
+Switch 4 port 3 utilization: 0.11%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.33%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 12.61%
+Switch 3 port 2 utilization: 0.33%
+DECISION 10.0.0.13:41002 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39744 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39492 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:41012 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39752 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39508 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.20%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 25.21%
+Switch 3 port 2 utilization: 0.66%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.40%
+DECISION 10.0.0.13:41018 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39764 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39510 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:41028 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39772 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39516 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.12%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.11%
+Switch 4 port 5 utilization: 12.61%
+Switch 4 port 3 utilization: 0.11%
+Switch 1 port 8 utilization: 0.34%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 12.60%
+Switch 3 port 2 utilization: 0.34%
+DECISION 10.0.0.13:41034 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39774 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39518 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.19%
+Switch 4 port 3 utilization: 0.23%
+Switch 3 port 1 utilization: 25.20%
+Switch 3 port 2 utilization: 0.66%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.65%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.39%
+Switch 1 port 2 utilization: 8.40%
+Switch 1 port 3 utilization: 8.39%
+DECISION 10.0.0.13:41038 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:39788 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:39528 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:50854 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56158 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46056 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.17%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 18.39%
+Switch 4 port 3 utilization: 0.16%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.49%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 5.94%
+Switch 1 port 2 utilization: 5.94%
+Switch 1 port 3 utilization: 6.30%
+Switch 3 port 1 utilization: 18.15%
+Switch 3 port 2 utilization: 0.48%
+DECISION 10.0.0.13:50860 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56164 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46070 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.17%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 19.43%
+Switch 4 port 3 utilization: 0.18%
+Switch 1 port 8 utilization: 0.51%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 6.68%
+Switch 1 port 2 utilization: 6.68%
+Switch 1 port 3 utilization: 6.32%
+Switch 3 port 1 utilization: 19.67%
+Switch 3 port 2 utilization: 0.51%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:50866 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56180 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46076 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:50878 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56190 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46090 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.23%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.12%
+Switch 4 port 3 utilization: 0.22%
+Switch 1 port 8 utilization: 0.65%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.08%
+Switch 1 port 2 utilization: 8.42%
+Switch 1 port 3 utilization: 8.42%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.02%
+Switch 3 port 1 utilization: 24.88%
+Switch 3 port 2 utilization: 0.64%
+DECISION 10.0.0.13:50892 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56204 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46092 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.12%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.71%
+Switch 4 port 3 utilization: 0.12%
+Switch 1 port 8 utilization: 0.35%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.02%
+Switch 1 port 1 utilization: 4.55%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 12.95%
+Switch 3 port 2 utilization: 0.36%
+DECISION 10.0.0.13:50904 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56206 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46106 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:50916 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56222 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46112 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.22%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.66%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:50920 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:56226 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:46116 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.11%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 12.61%
+Switch 4 port 3 utilization: 0.12%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 12.61%
+Switch 3 port 2 utilization: 0.33%
+Switch 1 port 8 utilization: 0.33%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 4.20%
+DECISION 10.0.0.13:42352 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36684 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51976 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:42366 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36692 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:51988 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.23%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.22%
+Switch 1 port 8 utilization: 0.66%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 25.21%
+Switch 3 port 2 utilization: 0.66%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.13:42372 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36694 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52000 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:42382 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:42394 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:36708 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52008 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52024 -> 10.0.0.2 (round-robin)
+Switch 3 port 1 utilization: 13.42%
+Switch 3 port 2 utilization: 0.38%
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.24%
+Switch 4 port 5 utilization: 13.63%
+Switch 4 port 3 utilization: 0.14%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.38%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 4.99%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.13:42400 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:36720 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36732 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52034 -> 10.0.0.3 (round-robin)
+server 10.0.0.1 is DOWN (no load report for 5s)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.21%
+Switch 4 port 5 utilization: 19.98%
+Switch 4 port 3 utilization: 0.31%
+Switch 3 port 1 utilization: 20.20%
+Switch 3 port 2 utilization: 0.52%
+Switch 1 port 8 utilization: 0.52%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 7.62%
+Switch 1 port 3 utilization: 4.20%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:42408 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:42424 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:36744 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52046 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52052 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:42438 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:36760 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36776 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52054 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.33%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.67%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.13:42452 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:42460 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:36784 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52056 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52066 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:42466 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:36796 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:53834 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52480 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 24.17%
+Switch 4 port 3 utilization: 0.29%
+Switch 3 port 1 utilization: 23.93%
+Switch 3 port 2 utilization: 0.63%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.63%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 7.12%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.13:43858 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:43868 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:53848 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52492 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52496 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:43878 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.23%
+Switch 4 port 5 utilization: 17.87%
+Switch 4 port 3 utilization: 0.27%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 18.11%
+Switch 3 port 2 utilization: 0.49%
+Switch 1 port 8 utilization: 0.48%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 5.50%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.12:53860 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:53862 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52510 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:43884 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:43898 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:53868 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52514 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52518 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 21.01%
+Switch 4 port 3 utilization: 0.23%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.56%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 21.00%
+Switch 3 port 2 utilization: 0.56%
+DECISION 10.0.0.13:43902 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:53872 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:53886 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52530 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:43904 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:43920 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:53892 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52544 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52546 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.33%
+Switch 3 port 1 utilization: 25.24%
+Switch 3 port 2 utilization: 0.67%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:43926 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:53898 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:53906 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52562 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:43936 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:43948 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:53920 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:52576 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:52582 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.23%
+Switch 4 port 5 utilization: 21.02%
+Switch 4 port 3 utilization: 0.33%
+Switch 1 port 8 utilization: 0.57%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 21.01%
+Switch 3 port 2 utilization: 0.56%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:43962 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:53936 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:53944 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:52590 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:44504 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:44506 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.28%
+Switch 4 port 5 utilization: 19.60%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.50%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 6.88%
+Switch 3 port 1 utilization: 19.48%
+Switch 3 port 2 utilization: 0.51%
+DECISION 10.0.0.12:45462 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:45476 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:41994 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:44514 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:45484 -> 10.0.0.1 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.09%
+Switch 4 port 5 utilization: 8.48%
+Switch 4 port 3 utilization: 0.15%
+Switch 1 port 8 utilization: 0.24%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 1.38%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 2.79%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 8.36%
+Switch 3 port 2 utilization: 0.24%
+DECISION 10.0.0.12:45492 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42008 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:44524 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:44540 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.29%
+Switch 4 port 5 utilization: 18.14%
+Switch 4 port 3 utilization: 0.19%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 18.39%
+Switch 3 port 2 utilization: 0.48%
+Switch 1 port 8 utilization: 0.47%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 7.03%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 7.15%
+DECISION 10.0.0.12:45502 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:42012 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:42018 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:44544 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:45510 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:45518 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42022 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:44558 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:44570 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.33%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 3 port 1 utilization: 25.21%
+Switch 3 port 2 utilization: 0.67%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.12:45526 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:42038 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:42042 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:44580 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:45534 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:45540 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:42048 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:44588 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:44596 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.25%
+Switch 4 port 5 utilization: 21.92%
+Switch 4 port 3 utilization: 0.33%
+Switch 1 port 8 utilization: 0.59%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 4.76%
+Switch 3 port 1 utilization: 21.56%
+Switch 3 port 2 utilization: 0.58%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.12:45552 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:42050 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:42058 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:44604 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:54634 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:54648 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.27%
+Switch 4 port 5 utilization: 19.29%
+Switch 4 port 3 utilization: 0.23%
+Switch 3 port 1 utilization: 19.42%
+Switch 3 port 2 utilization: 0.50%
+Switch 1 port 8 utilization: 0.50%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.20%
+Switch 1 port 2 utilization: 7.35%
+Switch 1 port 3 utilization: 7.86%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.11:49734 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:60572 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:60580 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:54662 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:49748 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:49760 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:60582 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.26%
+Switch 4 port 5 utilization: 21.82%
+Switch 4 port 3 utilization: 0.33%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 22.06%
+Switch 3 port 2 utilization: 0.59%
+Switch 1 port 8 utilization: 0.59%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 5.26%
+Switch 1 port 3 utilization: 8.40%
+DECISION 10.0.0.12:54678 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:54688 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:49762 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:60598 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:60612 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:54692 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:49774 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:49790 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:60618 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.33%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.67%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.12:54698 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:54704 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:49796 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:60628 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:60630 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:54710 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:49804 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:49816 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:60634 -> 10.0.0.3 (round-robin)
+Switch 3 port 1 utilization: 20.34%
+Switch 3 port 2 utilization: 0.53%
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.30%
+Switch 4 port 5 utilization: 20.68%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.54%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 7.83%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 4.21%
+DECISION 10.0.0.12:54718 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:54732 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:49822 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:60636 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:60640 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:54734 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.25%
+Switch 4 port 5 utilization: 17.94%
+Switch 4 port 3 utilization: 0.25%
+Switch 3 port 1 utilization: 18.04%
+Switch 3 port 2 utilization: 0.50%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.49%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.78%
+Switch 1 port 2 utilization: 4.75%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.11:49830 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:49832 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:60644 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:54738 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:54742 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:49836 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:60646 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:60662 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 24.44%
+Switch 4 port 3 utilization: 0.31%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.64%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 7.87%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 24.65%
+Switch 3 port 2 utilization: 0.65%
+DECISION 10.0.0.12:59820 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:35800 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:35814 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:33158 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:59828 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:59842 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:35816 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33166 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:33172 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.33%
+Switch 3 port 1 utilization: 25.23%
+Switch 3 port 2 utilization: 0.67%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.12:59854 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:35822 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:35834 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:33176 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:59856 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:59862 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:35838 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 18.07%
+Switch 4 port 3 utilization: 0.25%
+Switch 3 port 1 utilization: 17.83%
+Switch 3 port 2 utilization: 0.47%
+Switch 1 port 8 utilization: 0.48%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 5.23%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 4.21%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:33184 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:33186 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:59878 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:35842 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:35844 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:33190 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:59888 -> 10.0.0.1 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.23%
+Switch 4 port 5 utilization: 19.76%
+Switch 4 port 3 utilization: 0.31%
+Switch 3 port 1 utilization: 20.00%
+Switch 3 port 2 utilization: 0.53%
+Switch 1 port 8 utilization: 0.53%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 7.39%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 8.41%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.12:59896 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:35852 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33192 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:33198 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:59900 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:35860 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:35872 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:33208 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.21%
+Switch 4 port 3 utilization: 0.33%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 25.20%
+Switch 3 port 2 utilization: 0.67%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.12:59902 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:59908 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:35880 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:33218 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:33220 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:59910 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:35890 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:35892 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:49720 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.22%
+Switch 4 port 3 utilization: 0.33%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 25.22%
+Switch 3 port 2 utilization: 0.67%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.12:36832 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36834 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:53294 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:49730 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:49736 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:36848 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:53296 -> 10.0.0.1 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 2 utilization: 0.23%
+Switch 4 port 5 utilization: 16.81%
+Switch 4 port 3 utilization: 0.23%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.45%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 4.21%
+Switch 3 port 1 utilization: 16.80%
+Switch 3 port 2 utilization: 0.45%
+DECISION 10.0.0.11:53304 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:49748 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:36860 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36862 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:53306 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:49762 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:49766 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 21.00%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.56%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.40%
+Switch 1 port 2 utilization: 4.20%
+Switch 1 port 3 utilization: 8.40%
+Switch 3 port 1 utilization: 20.99%
+Switch 3 port 2 utilization: 0.56%
+DECISION 10.0.0.12:36878 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:53314 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:53326 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:49772 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:36886 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36888 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:53334 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:49786 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:49796 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.33%
+Switch 4 port 5 utilization: 25.20%
+Switch 4 port 3 utilization: 0.33%
+Switch 3 port 1 utilization: 25.24%
+Switch 3 port 2 utilization: 0.67%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.67%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 8.41%
+DECISION 10.0.0.12:36900 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:53336 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:53348 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:49808 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:36910 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:36926 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.11:53364 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:49810 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:49816 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 2 utilization: 0.30%
+Switch 4 port 5 utilization: 23.95%
+Switch 4 port 3 utilization: 0.34%
+Switch 3 port 1 utilization: 23.70%
+Switch 3 port 2 utilization: 0.63%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.64%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 1 utilization: 8.42%
+Switch 1 port 2 utilization: 8.42%
+Switch 1 port 3 utilization: 6.89%
+DECISION 10.0.0.12:36932 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:53366 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:53368 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:49822 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.12:35048 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.12:35056 -> 10.0.0.2 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.27%
+Switch 4 port 5 utilization: 18.10%
+Switch 4 port 3 utilization: 0.22%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 18.35%
+Switch 3 port 2 utilization: 0.50%
+Switch 1 port 8 utilization: 0.49%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 4.21%
+Switch 1 port 2 utilization: 8.41%
+Switch 1 port 3 utilization: 5.73%
+DECISION 10.0.0.11:49508 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.13:34562 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.13:34578 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.12:35070 -> 10.0.0.3 (round-robin)
+DECISION 10.0.0.11:49518 -> 10.0.0.1 (round-robin)
+DECISION 10.0.0.11:49524 -> 10.0.0.2 (round-robin)
+DECISION 10.0.0.13:34584 -> 10.0.0.3 (round-robin)
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 2 utilization: 0.22%
+Switch 4 port 5 utilization: 21.01%
+Switch 4 port 3 utilization: 0.33%
+Switch 1 port 8 utilization: 0.56%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 1 utilization: 8.41%
+Switch 1 port 2 utilization: 4.21%
+Switch 1 port 3 utilization: 8.41%
+Switch 3 port 1 utilization: 21.01%
+Switch 3 port 2 utilization: 0.56%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+link down: s1-s2, rerouting
+link down: s2-s1, rerouting
+link down: s1-s3, rerouting
+link down: s3-s1, rerouting
+link down: s4-s2, rerouting
+link down: s2-s4, rerouting
+link down: s4-s3, rerouting
+link down: s3-s4, rerouting

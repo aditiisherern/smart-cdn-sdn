@@ -1,0 +1,177 @@
+===== h11 =====
+Downloaded test_100k.bin: 102400 bytes in 309.513 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.019 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.949 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.256 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.236 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.272 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.545 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.886 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.836 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.462 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.258 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.957 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.283 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.685 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.917 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.153 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.387 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.919 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.893 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.545 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.544 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.900 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.372 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.791 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.252 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.864 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.456 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.428 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.469 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.631 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.000 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.830 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.067 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.123 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.035 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.773 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.455 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.463 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.158 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.856 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.248 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.334 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.738 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.440 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.102 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.866 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.542 ms -> downloads/10.0.0.11_test_100k.bin
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+
+===== h12 =====
+Downloaded test_100k.bin: 102400 bytes in 296.935 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.893 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.479 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.040 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.205 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.924 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.028 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.750 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.655 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.448 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.744 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.518 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.115 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.508 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.763 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.849 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.093 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.218 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.598 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.481 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.330 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.559 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.560 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.670 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.819 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.877 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.805 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.740 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.832 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.559 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.706 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.871 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.545 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.095 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.055 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.258 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.435 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.230 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.115 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.133 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.591 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.347 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.437 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.303 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.463 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.512 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.677 ms -> downloads/10.0.0.12_test_100k.bin
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+
+===== h13 =====
+Downloaded test_100k.bin: 102400 bytes in 308.272 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 282.198 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.694 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.304 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.961 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.430 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.148 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.290 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.543 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.331 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.341 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.571 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.313 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.753 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.663 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.971 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.564 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.176 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.641 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.492 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.544 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.057 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.282 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.769 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.288 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.976 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.134 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.415 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.368 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.573 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.068 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.194 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.768 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.149 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.820 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.808 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 285.459 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.375 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.139 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 287.688 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.822 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.591 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.740 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.104 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.773 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.597 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 286.465 ms -> downloads/10.0.0.13_test_100k.bin
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+Request failed (attempt 1): timed out
+Request failed (attempt 2): timed out
+

@@ -1,0 +1,4 @@
+timestamp,event,detail
+2026-11-15T07:21:08.513594+00:00,start,"clients h11,h12,h13"
+2026-11-15T07:22:08.562297+00:00,link_slowed,s3-s4 to 1 Mbps
+2026-11-15T07:23:08.513799+00:00,end,
