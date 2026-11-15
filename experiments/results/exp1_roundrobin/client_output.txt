@@ -1,0 +1,38 @@
+===== h11 =====
+Downloaded test_100k.bin: 102400 bytes in 302.071 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 451.935 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 358.614 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 294.372 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 297.768 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 311.039 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 495.710 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 264.694 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 464.049 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 473.023 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 233.026 ms -> downloads/10.0.0.11_test_100k.bin
+
+===== h12 =====
+Downloaded test_100k.bin: 102400 bytes in 310.506 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 461.425 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 364.435 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 291.144 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 300.898 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 317.986 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 496.771 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 288.706 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 459.293 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 486.670 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 253.973 ms -> downloads/10.0.0.12_test_100k.bin
+
+===== h13 =====
+Downloaded test_100k.bin: 102400 bytes in 310.010 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 445.300 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 367.842 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 290.783 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 300.215 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 318.354 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 497.978 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 259.538 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 449.889 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 475.715 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 256.845 ms -> downloads/10.0.0.13_test_100k.bin

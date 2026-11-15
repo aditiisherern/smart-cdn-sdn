@@ -8,3 +8,6 @@ experiments/results/*.csv
 downloads/
 servers/downloads/
 *.bak
+!experiments/results/summary.csv
+!experiments/results/summary.csv
+!experiments/results/summary.csv

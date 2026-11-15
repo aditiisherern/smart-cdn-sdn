@@ -1,0 +1,29 @@
+===== h11 =====
+Downloaded test_100k.bin: 102400 bytes in 319.783 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 702.903 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 302.281 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 267.293 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 593.314 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 2056.796 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 1127.639 ms -> downloads/10.0.0.11_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 1602.141 ms -> downloads/10.0.0.11_test_100k.bin
+
+===== h12 =====
+Downloaded test_100k.bin: 102400 bytes in 312.317 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 668.922 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 275.701 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 264.392 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 589.234 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 937.202 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 1385.370 ms -> downloads/10.0.0.12_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 1595.230 ms -> downloads/10.0.0.12_test_100k.bin
+
+===== h13 =====
+Downloaded test_100k.bin: 102400 bytes in 308.388 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 679.456 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 279.650 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 256.386 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 597.469 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 2814.612 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 1346.719 ms -> downloads/10.0.0.13_test_100k.bin
+Downloaded test_100k.bin: 102400 bytes in 1485.644 ms -> downloads/10.0.0.13_test_100k.bin

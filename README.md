@@ -280,7 +280,55 @@ Results go to `experiments/results/exp<N>_<mode>/`:
 | `summary.json` | Settings and per-client succeeded/failed request counts (a request counts as failed if its retry also failed) |
 | `controller.log` | Controller output, including every DECISION |
 | `client_output.txt` | What each client printed |
+## Experimental Results
 
+Experiments were run for 15 seconds each, with failures injected at 7 seconds for experiments 2–4. The results below are from the completed runs.
+
+### Experiment 1: Normal operation
+
+| Mode | Successful requests | Failed requests | Average response time (ms) | P95 response time (ms) | Throughput (MB/s) |
+|---|---:|---:|---:|---:|---:|
+| Smart | 36 | 0 | 293.424 | 516.452 | 0.2458 |
+| Round Robin | 33 | 0 | 362.139 | 496.771 | 0.2253 |
+| Static | 36 | 0 | 286.576 | 520.864 | 0.2458 |
+
+### Experiment 2: Server failure
+
+Server h1 was stopped during the experiment.
+
+| Mode | Successful requests | Failed requests | Average response time (ms) | Recovery time (s) |
+|---|---:|---:|---:|---:|
+| Smart | 36 | 0 | 279.227 | 0.025 |
+
+### Experiment 3: Link failure
+
+A link on the active path was disconnected during the experiment.
+
+| Mode | Successful requests | Failed requests | Average response time (ms) | Recovery time (s) |
+|---|---:|---:|---:|---:|
+| Smart | 34 | 0 | 331.487 | 0.241 |
+
+### Experiment 4: Slow link
+
+A link on the active path was slowed to 1 Mbps.
+
+| Mode | Successful requests | Failed requests | Average response time (ms) | Recovery time (s) |
+|---|---:|---:|---:|---:|
+| Smart | 24 | 0 | 865.368 | 0.872 |
+
+### Observations
+
+- All completed runs recorded zero failed requests.
+- In normal operation, Smart mode achieved an average response time of 293.424 ms.
+- The server-failure and link-failure runs completed without recorded failed requests.
+- The slow-link experiment had the highest average response time (865.368 ms) and the lowest average throughput (0.1638 MB/s).
+- The normal-operation comparison includes Smart, Round Robin and Static modes. Experiments 2–4 currently include Smart mode only.
+
+### Graphs
+
+Generated graphs are saved in `experiments/results/graphs/`. They include response-time comparisons, failed-request comparisons and response-time-over-time plots for experiments 2–4.
+
+**Note:** These are preliminary results from short 15-second runs. Experiment 5 (six clients at once) and additional mode comparisons for experiments 2–4 have not yet been completed.
 ## Troubleshooting
 
 | Problem | Fix |

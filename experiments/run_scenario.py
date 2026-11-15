@@ -82,7 +82,7 @@ def start_controller(mode, log_path):
         sys.exit("ryu-manager not found (looked in .venv-ryu/bin and PATH)")
 
     log = open(log_path, "w")
-    proc = subprocess.Popen([ryu, "--observe-links", "controller/cdn_controller.py"],
+    proc = subprocess.Popen([ryu, "--observe-links", "controller/cdn_controller.py", "monitor/link_monitor.py"],
                             cwd=str(REPO), env={**os.environ, "CDN_MODE": mode},
                             stdout=log, stderr=subprocess.STDOUT)
     proc.log = log

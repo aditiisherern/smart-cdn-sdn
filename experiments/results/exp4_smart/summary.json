@@ -1,0 +1,23 @@
+{
+  "experiment": 4,
+  "description": "link on the path slowed to 1 Mbps",
+  "mode": "smart",
+  "duration_s": 15.0,
+  "fail_at_s": 7.0,
+  "file": "test_100k.bin",
+  "interval_s": 1.0,
+  "clients": {
+    "h11": {
+      "succeeded": 8,
+      "failed": 0
+    },
+    "h12": {
+      "succeeded": 8,
+      "failed": 0
+    },
+    "h13": {
+      "succeeded": 8,
+      "failed": 0
+    }
+  }
+}

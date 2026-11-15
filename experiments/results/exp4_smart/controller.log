@@ -1,0 +1,280 @@
+loading app controller/cdn_controller.py
+loading app monitor/link_monitor.py
+loading app ryu.topology.switches
+loading app ryu.controller.ofp_handler
+instantiating app controller/cdn_controller.py of CDNController
+CDN controller starting in smart mode
+instantiating app monitor/link_monitor.py of LinkMonitor
+instantiating app ryu.topology.switches of Switches
+instantiating app ryu.controller.ofp_handler of OFPHandler
+link up: s3 port 1 -> s1
+link up: s2 port 1 -> s1
+link up: s3 port 2 -> s4
+link up: s2 port 2 -> s4
+link up: s1 port 7 -> s2
+link up: s1 port 8 -> s3
+link up: s4 port 4 -> s2
+link up: s4 port 5 -> s3
+Switch 4 port 4 utilization: 0.06%
+Switch 4 port 1 utilization: 0.07%
+Switch 4 port 2 utilization: 0.07%
+Switch 4 port 5 utilization: 0.07%
+Switch 4 port 3 utilization: 0.07%
+Switch 2 port 1 utilization: 0.07%
+Switch 2 port 2 utilization: 0.05%
+Switch 3 port 1 utilization: 0.07%
+Switch 3 port 2 utilization: 0.06%
+Switch 1 port 8 utilization: 0.06%
+Switch 1 port 5 utilization: 0.07%
+Switch 1 port 7 utilization: 0.07%
+Switch 1 port 4 utilization: 0.06%
+Switch 1 port 1 utilization: 0.07%
+Switch 1 port 6 utilization: 0.06%
+Switch 1 port 2 utilization: 0.07%
+Switch 1 port 3 utilization: 0.07%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 1 utilization: 0.03%
+Switch 4 port 2 utilization: 0.06%
+Switch 4 port 5 utilization: 0.02%
+Switch 4 port 3 utilization: 0.02%
+Switch 1 port 8 utilization: 0.03%
+Switch 1 port 5 utilization: 0.06%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 1 utilization: 0.05%
+Switch 1 port 6 utilization: 0.02%
+Switch 1 port 2 utilization: 0.02%
+Switch 1 port 3 utilization: 0.07%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.03%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.03%
+host 10.0.0.2 00:00:00:00:00:02 at s4 port 2
+server 10.0.0.2 is UP
+host 10.0.0.1 00:00:00:00:00:01 at s4 port 1
+server 10.0.0.1 is UP
+host 10.0.0.3 00:00:00:00:00:03 at s4 port 3
+server 10.0.0.3 is UP
+Switch 1 port 8 utilization: 0.02%
+Switch 1 port 5 utilization: 0.02%
+Switch 1 port 7 utilization: 0.02%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 6 utilization: 0.02%
+Switch 1 port 2 utilization: 0.02%
+Switch 1 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 0.02%
+Switch 3 port 2 utilization: 0.02%
+Switch 4 port 4 utilization: 0.02%
+Switch 4 port 1 utilization: 0.02%
+Switch 4 port 2 utilization: 0.02%
+Switch 4 port 5 utilization: 0.02%
+Switch 4 port 3 utilization: 0.02%
+Switch 2 port 1 utilization: 0.02%
+Switch 2 port 2 utilization: 0.03%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 1 utilization: 0.05%
+Switch 4 port 2 utilization: 0.05%
+Switch 4 port 5 utilization: 0.00%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 0.01%
+Switch 3 port 2 utilization: 0.00%
+Switch 2 port 1 utilization: 0.05%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.00%
+Switch 1 port 5 utilization: 0.05%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 1 utilization: 0.05%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 2 utilization: 0.02%
+Switch 1 port 3 utilization: 0.05%
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 1 utilization: 0.07%
+Switch 4 port 2 utilization: 0.07%
+Switch 4 port 5 utilization: 0.01%
+Switch 4 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 0.05%
+Switch 3 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.01%
+Switch 1 port 5 utilization: 0.07%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 1 utilization: 0.07%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 2 utilization: 0.08%
+Switch 1 port 3 utilization: 0.07%
+Switch 2 port 1 utilization: 0.07%
+Switch 2 port 2 utilization: 0.01%
+Switch 1 port 8 utilization: 0.00%
+Switch 1 port 5 utilization: 0.01%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 1 utilization: 0.01%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 2 utilization: 0.00%
+Switch 1 port 3 utilization: 0.01%
+Switch 3 port 1 utilization: 0.00%
+Switch 3 port 2 utilization: 0.00%
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 1 utilization: 0.01%
+Switch 4 port 2 utilization: 0.00%
+Switch 4 port 5 utilization: 0.00%
+Switch 4 port 3 utilization: 0.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+host 10.0.0.12 00:00:00:00:00:12 at s1 port 2
+host 10.0.0.11 00:00:00:00:00:11 at s1 port 1
+host 10.0.0.13 00:00:00:00:00:13 at s1 port 3
+DECISION 10.0.0.12:43244 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.11:36970 -> 10.0.0.2 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.13:46026 -> 10.0.0.3 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.13:46034 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.12:43250 -> 10.0.0.3 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.11:36986 -> 10.0.0.1 (smart: lowest score 0.10 of 3 live)
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 1 utilization: 0.31%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 23.15%
+Switch 4 port 3 utilization: 0.25%
+Switch 1 port 8 utilization: 0.59%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.01%
+Switch 1 port 1 utilization: 6.53%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 2 utilization: 8.10%
+Switch 1 port 3 utilization: 8.07%
+Switch 3 port 1 utilization: 22.66%
+Switch 3 port 2 utilization: 0.58%
+Switch 2 port 1 utilization: 0.01%
+Switch 2 port 2 utilization: 0.01%
+DECISION 10.0.0.13:50886 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.12:52298 -> 10.0.0.2 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.11:33588 -> 10.0.0.3 (smart: lowest score 0.00 of 3 live)
+Switch 4 port 4 utilization: 0.04%
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 2 utilization: 0.19%
+Switch 4 port 5 utilization: 14.66%
+Switch 4 port 3 utilization: 0.14%
+Switch 3 port 1 utilization: 15.16%
+Switch 3 port 2 utilization: 0.41%
+Switch 1 port 8 utilization: 0.40%
+Switch 1 port 5 utilization: 0.08%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 1 utilization: 6.12%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 2 utilization: 4.56%
+Switch 1 port 3 utilization: 4.64%
+Switch 2 port 1 utilization: 0.08%
+Switch 2 port 2 utilization: 0.00%
+DECISION 10.0.0.13:50902 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.12:52306 -> 10.0.0.2 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.11:33596 -> 10.0.0.1 (smart: lowest score 0.10 of 3 live)
+DECISION 10.0.0.13:50910 -> 10.0.0.3 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.12:52308 -> 10.0.0.2 (smart: lowest score 0.10 of 3 live)
+DECISION 10.0.0.11:33602 -> 10.0.0.3 (smart: lowest score 0.10 of 3 live)
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 1 utilization: 0.26%
+Switch 4 port 2 utilization: 0.17%
+Switch 4 port 5 utilization: 17.85%
+Switch 4 port 3 utilization: 0.13%
+Switch 1 port 8 utilization: 0.50%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.02%
+Switch 1 port 1 utilization: 5.71%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 2 utilization: 5.98%
+Switch 1 port 3 utilization: 5.94%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 17.58%
+Switch 3 port 2 utilization: 0.49%
+DECISION 10.0.0.12:52320 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.13:50916 -> 10.0.0.2 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.11:33604 -> 10.0.0.3 (smart: lowest score 0.00 of 3 live)
+Switch 4 port 4 utilization: 0.04%
+Switch 4 port 1 utilization: 0.14%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 11.88%
+Switch 4 port 3 utilization: 0.16%
+Switch 3 port 1 utilization: 12.15%
+Switch 3 port 2 utilization: 0.34%
+Switch 2 port 1 utilization: 0.07%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.33%
+Switch 1 port 5 utilization: 0.04%
+Switch 1 port 7 utilization: 0.01%
+Switch 1 port 4 utilization: 0.04%
+Switch 1 port 1 utilization: 3.52%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 2 utilization: 6.12%
+Switch 1 port 3 utilization: 2.58%
+DECISION 10.0.0.12:52332 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+Switch 4 port 4 utilization: 0.00%
+Switch 4 port 1 utilization: 0.06%
+Switch 4 port 2 utilization: 0.12%
+Switch 4 port 5 utilization: 9.29%
+Switch 4 port 3 utilization: 0.14%
+Switch 3 port 1 utilization: 9.25%
+Switch 3 port 2 utilization: 0.28%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.00%
+Switch 1 port 8 utilization: 0.28%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.04%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 1 utilization: 3.61%
+Switch 1 port 6 utilization: 0.01%
+Switch 1 port 2 utilization: 1.75%
+Switch 1 port 3 utilization: 3.94%
+DECISION 10.0.0.11:33614 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.13:50924 -> 10.0.0.2 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.12:52348 -> 10.0.0.3 (smart: lowest score 0.00 of 3 live)
+Switch 4 port 4 utilization: 0.04%
+Switch 4 port 1 utilization: 0.22%
+Switch 4 port 2 utilization: 0.11%
+Switch 4 port 5 utilization: 9.70%
+Switch 4 port 3 utilization: 0.01%
+Switch 1 port 8 utilization: 0.27%
+Switch 1 port 5 utilization: 0.04%
+Switch 1 port 7 utilization: 0.00%
+Switch 1 port 4 utilization: 0.04%
+Switch 1 port 1 utilization: 4.24%
+Switch 1 port 6 utilization: 0.04%
+Switch 1 port 2 utilization: 3.11%
+Switch 1 port 3 utilization: 2.47%
+Switch 2 port 1 utilization: 0.04%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 9.73%
+Switch 3 port 2 utilization: 0.27%
+DECISION 10.0.0.11:33628 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+DECISION 10.0.0.13:47330 -> 10.0.0.2 (smart: lowest score 0.00 of 3 live)
+Switch 4 port 4 utilization: 0.01%
+Switch 4 port 1 utilization: 0.10%
+Switch 4 port 2 utilization: 0.06%
+Switch 4 port 5 utilization: 9.82%
+Switch 4 port 3 utilization: 0.14%
+Switch 1 port 8 utilization: 0.29%
+Switch 1 port 5 utilization: 0.00%
+Switch 1 port 7 utilization: 0.04%
+Switch 1 port 4 utilization: 0.00%
+Switch 1 port 1 utilization: 3.49%
+Switch 1 port 6 utilization: 0.00%
+Switch 1 port 2 utilization: 4.19%
+Switch 1 port 3 utilization: 2.00%
+Switch 2 port 1 utilization: 0.00%
+Switch 2 port 2 utilization: 0.01%
+Switch 3 port 1 utilization: 9.67%
+Switch 3 port 2 utilization: 0.25%
+DECISION 10.0.0.12:42370 -> 10.0.0.1 (smart: lowest score 0.00 of 3 live)
+link down: s1-s2, rerouting
+link down: s2-s1, rerouting
+link down: s1-s3, rerouting
+link down: s3-s1, rerouting
+link down: s2-s4, rerouting
+link down: s4-s2, rerouting
+link down: s4-s3, rerouting
+link down: s3-s4, rerouting
