@@ -169,8 +169,12 @@ The mode comes from `MODE` in `config.py`, or from the `CDN_MODE` environment va
 | `servers/server.py`, `servers/client.py` | TCP content server and client | P1 |
 | `experiments/failures.py` | Kill/start servers, cut/restore/slow links (CLI commands) | P1 |
 | `controller/cdn_controller.py` | ARP, routing, server choice, address rewriting, failover | P2 |
-| `monitor/link_monitor.py` | Port stats every 2 s → `link_load` | P3 |
-| `tests/test_cases.md` | Test cases with steps and expected results | P3 |
+| `experiments/run_scenario.py` | Runs one experiment end to end and saves its results | P2 |
+| `monitor/link_monitor.py` | Ryu app: port stats every 2 s → `link_load` and a CSV log | P3 |
+| `monitor/health_check.py` | Standalone TCP health checker (not used by the controller) | P3 |
+| `experiments/parse_logs.py`, `experiments/plot.py` | Turn experiment results into `summary.csv` and graphs | P3 |
+| `tests/run_d1_tests.py`, `tests/test_cases.md` | Automated D1 tests and the test case list | P1/P3 |
+| `experiments/results/` | One folder per experiment run, plus `summary.csv` and `graphs/` | P3 |
 | `config.py` | Shared addresses and mode | All |
 
 ## Setup
@@ -179,7 +183,7 @@ The mode comes from `MODE` in `config.py`, or from the `CDN_MODE` environment va
 
 ```bash
 sudo apt install mininet openvswitch-switch iperf python3-pip
-pip install ryu eventlet==0.30.2 networkx
+pip install ryu eventlet==0.30.2 networkx pandas matplotlib
 ```
 If Ryu won't start, it's the eventlet version: use `eventlet==0.30.2`, or Python 3.8.
 
@@ -193,9 +197,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh     # installs uv (or: pipx inst
 uv venv --python 3.9 .venv-ryu
 VIRTUAL_ENV=.venv-ryu uv pip install "setuptools<58" wheel
 VIRTUAL_ENV=.venv-ryu uv pip install --no-build-isolation "ryu==4.34" eventlet==0.30.2 networkx
+VIRTUAL_ENV=.venv-ryu uv pip install pandas matplotlib      # for the graphs
 ```
 Pin `ryu==4.34`: left unpinned, uv picks an ancient 2.x whose `ryu-manager` is broken.
-Then use `.venv-ryu/bin/ryu-manager` wherever this README says `ryu-manager`.
+Then use `.venv-ryu/bin/ryu-manager` wherever this README says `ryu-manager`, and
+`.venv-ryu/bin/python` for `parse_logs.py` and `plot.py`.
 
 ## Running
 
@@ -236,18 +242,26 @@ The controller terminal shows each decision, e.g.
 
 ## Test cases (D1)
 
-Full steps are in [`tests/test_cases.md`](tests/test_cases.md). Run all of them with
-`sudo python3 tests/run_d1_tests.py`; the last run (2026-10-27, smart mode, 6/6 passed) is in
-[`tests/d1_results.md`](tests/d1_results.md).
+Full steps are in [`tests/test_cases.md`](tests/test_cases.md). The test script starts its own
+controller, so you don't need one running:
+
+```bash
+sudo python3 tests/run_d1_tests.py                     # smart → tests/d1_results.md
+sudo python3 tests/run_d1_tests.py --mode roundrobin   # → tests/d1_results_roundrobin.md
+sudo python3 tests/run_d1_tests.py --mode static       # → tests/d1_results_static.md
+```
+
+In `static` mode, tests 4 and 5 pass when the system does **not** recover, because static is
+the no-failover baseline. The table below is the smart-mode run from 2026-10-27.
 
 | # | Test | Expected result | Actual result |
 |---|---|---|---|
 | 1 | `pingall` | 0% dropped (72/72) | PASS: 0% loss |
-| 2 | h11 downloads `test_1m.bin` from `10.0.0.100` | `OK`, 1048576 bytes, CSV line written, controller logs a DECISION  PASS: 1 MB in 948 ms, served by h1; rewrite flows seen on s1 and s4 |
-| 3 | Missing file / bad request | `ERR NOT_FOUND` / `ERR BAD_REQUEST`, client exits cleanly  PASS: `ERR NOT_FOUND`, `ERR BAD_REQUEST`; unreachable server failed twice cleanly |
-| 4 | `kill_server` on the server in use, client looping | Controller logs DOWN within ~5 s; later requests succeed from another server  PASS: 15/15 succeeded after killing h1 (h2 served 9, h3 served 6) |
-| 5 | `link_down` on the path in use, client looping | Controller logs reroute; requests keep succeeding via the other path  PASS: traffic moved from s3 to s2, 15/15 succeeded |
-| 6 | 6 clients looping at once | All succeed; DECISION lines spread across h1–h3  PASS: 60/60 succeeded, spread h1 22 / h2 22 / h3 16 |
+| 2 | h11 downloads `test_1m.bin` from `10.0.0.100` | `OK`, 1048576 bytes, CSV line written, controller logs a DECISION | PASS: 1 MB in 948 ms, served by h1; rewrite flows seen on s1 and s4 |
+| 3 | Missing file / bad request | `ERR NOT_FOUND` / `ERR BAD_REQUEST`, client exits cleanly | PASS: `ERR NOT_FOUND`, `ERR BAD_REQUEST`; unreachable server failed twice cleanly |
+| 4 | `kill_server` on the server in use, client looping | Controller logs DOWN within ~5 s; later requests succeed from another server | PASS: 15/15 succeeded after killing h1 (h2 served 9, h3 served 6) |
+| 5 | `link_down` on the path in use, client looping | Controller logs reroute; requests keep succeeding via the other path | PASS: traffic moved from s3 to s2, 15/15 succeeded |
+| 6 | 6 clients looping at once | All succeed; DECISION lines spread across h1–h3 | PASS: 60/60 succeeded, spread h1 22 / h2 22 / h3 16 |
 
 ## Experiments (D2)
 
@@ -280,55 +294,24 @@ Results go to `experiments/results/exp<N>_<mode>/`:
 | `summary.json` | Settings and per-client succeeded/failed request counts (a request counts as failed if its retry also failed) |
 | `controller.log` | Controller output, including every DECISION |
 | `client_output.txt` | What each client printed |
-## Experimental Results
+| `link_utilization.csv` | Link monitor: % use of every switch port, every 2 s |
 
-Experiments were run for 15 seconds each, with failures injected at 7 seconds for experiments 2–4. The results below are from the completed runs.
+Then turn all the runs into one table and the graphs:
 
-### Experiment 1: Normal operation
+```bash
+python3 experiments/parse_logs.py    # → experiments/results/summary.csv
+python3 experiments/plot.py          # → experiments/results/graphs/*.png
+```
+(On Ubuntu 24.04 use `.venv-ryu/bin/python` instead of `python3`.)
 
-| Mode | Successful requests | Failed requests | Average response time (ms) | P95 response time (ms) | Throughput (MB/s) |
-|---|---:|---:|---:|---:|---:|
-| Smart | 36 | 0 | 293.424 | 516.452 | 0.2458 |
-| Round Robin | 33 | 0 | 362.139 | 496.771 | 0.2253 |
-| Static | 36 | 0 | 286.576 | 520.864 | 0.2458 |
+**Recovery time** in `summary.csv` is the longest any client went without a successful download
+after the failure (`never` if a client got nothing more). `normal_wait_s` is the same measure
+before the failure, for comparison: about 1–2 s when everything is healthy.
 
-### Experiment 2: Server failure
+## Results
 
-Server h1 was stopped during the experiment.
+_To be filled in from the full run (`run_scenario.py --all`, 120 s per run, failure at 60 s)._
 
-| Mode | Successful requests | Failed requests | Average response time (ms) | Recovery time (s) |
-|---|---:|---:|---:|---:|
-| Smart | 36 | 0 | 279.227 | 0.025 |
-
-### Experiment 3: Link failure
-
-A link on the active path was disconnected during the experiment.
-
-| Mode | Successful requests | Failed requests | Average response time (ms) | Recovery time (s) |
-|---|---:|---:|---:|---:|
-| Smart | 34 | 0 | 331.487 | 0.241 |
-
-### Experiment 4: Slow link
-
-A link on the active path was slowed to 1 Mbps.
-
-| Mode | Successful requests | Failed requests | Average response time (ms) | Recovery time (s) |
-|---|---:|---:|---:|---:|
-| Smart | 24 | 0 | 865.368 | 0.872 |
-
-### Observations
-
-- All completed runs recorded zero failed requests.
-- In normal operation, Smart mode achieved an average response time of 293.424 ms.
-- The server-failure and link-failure runs completed without recorded failed requests.
-- The slow-link experiment had the highest average response time (865.368 ms) and the lowest average throughput (0.1638 MB/s).
-- The normal-operation comparison includes Smart, Round Robin and Static modes. Experiments 2–4 currently include Smart mode only.
-
-### Graphs
-
-Generated graphs are saved in `experiments/results/graphs/`. They include response-time comparisons, failed-request comparisons and response-time-over-time plots for experiments 2–4.
-
-**Note:** These are preliminary results from short 15-second runs. Experiment 5 (six clients at once) and additional mode comparisons for experiments 2–4 have not yet been completed.
 ## Troubleshooting
 
 | Problem | Fix |
