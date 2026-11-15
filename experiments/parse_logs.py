@@ -55,6 +55,31 @@ def client_throughputs(records):
     return results
 
 
+def longest_wait(records, start, end):
+    """Longest time any one client waited between successful downloads in
+    [start, end]. Counted from start, so a client stuck right after a failure
+    shows up. Returns "never" if some client got nothing in the window."""
+    grouped = defaultdict(list)
+
+    for row in records:
+        grouped[row["client_ip"]].append(row["parsed_time"])
+
+    longest = 0.0
+
+    for times in grouped.values():
+        previous = start
+        later = sorted(t for t in times if start <= t <= end)
+
+        if not later:
+            return "never"
+
+        for t in later:
+            longest = max(longest, (t - previous).total_seconds())
+            previous = t
+
+    return round(longest, 3)
+
+
 def process_experiment(folder):
     summary_file = folder / "summary.json"
     clients_file = folder / "clients.csv"
@@ -102,25 +127,22 @@ def process_experiment(folder):
 
     per_client = client_throughputs(valid)
 
-    failure_time = None
+    times = {e.get("event"): parse_time(e["timestamp"]) for e in events}
+    failure_time = next(
+        (parse_time(e["timestamp"]) for e in events
+         if e.get("event") in FAILURE_EVENTS),
+        None,
+    )
 
-    for event in events:
-        if event.get("event") in FAILURE_EVENTS:
-            failure_time = parse_time(event["timestamp"])
-            break
-
+    # Recovery time: the longest a client went without a successful download
+    # after the failure. normal_wait_s is the same measure before the failure,
+    # so the two can be compared (about interval + response time when healthy).
     recovery_time = ""
+    normal_wait = ""
 
-    if failure_time is not None:
-        later_downloads = [
-            r["parsed_time"] for r in valid
-            if r["parsed_time"] >= failure_time
-        ]
-
-        if later_downloads:
-            recovery_time = round(
-                (min(later_downloads) - failure_time).total_seconds(), 3
-            )
+    if failure_time is not None and "start" in times and "end" in times:
+        recovery_time = longest_wait(valid, failure_time, times["end"])
+        normal_wait = longest_wait(valid, times["start"], failure_time)
 
     return {
         "experiment": summary.get("experiment"),
@@ -134,6 +156,7 @@ def process_experiment(folder):
         "total_downloaded_bytes": total_bytes,
         "average_throughput_MBps": round(average_throughput, 4),
         "client_throughput_MBps": json.dumps(per_client, sort_keys=True),
+        "normal_wait_s": normal_wait,
         "recovery_time_s": recovery_time,
     }
 
