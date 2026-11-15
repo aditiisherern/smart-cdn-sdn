@@ -2,12 +2,11 @@ __pycache__/
 *.pyc
 *.pcap
 servers/content/*.bin
-experiments/results/*.csv
 .vscode/
 .venv-ryu/
 downloads/
 servers/downloads/
 *.bak
-!experiments/results/summary.csv
-!experiments/results/summary.csv
-!experiments/results/summary.csv
+servers/client_log.csv
+experiments/results/link_utilization.csv
+experiments/results/server_health.csv
