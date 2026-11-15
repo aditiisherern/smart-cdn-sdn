@@ -8,6 +8,7 @@ failure, and saves everything to experiments/results/exp<N>_<mode>/:
     events.csv      timestamp,event,detail: start, the failure, end (for recovery time)
     summary.json    settings plus per-client succeeded/failed request counts
     controller.log  the controller's output, including every DECISION
+    link_utilization.csv  link monitor: % use of every switch port, every 2 s
     client_output.txt  what each client printed
 
 Usage (from the repository root):
@@ -23,6 +24,7 @@ Experiments (failure at --fail-at seconds, default 60 of 120):
 """
 
 import argparse
+import csv
 import json
 import os
 import shutil
@@ -82,8 +84,11 @@ def start_controller(mode, log_path):
         sys.exit("ryu-manager not found (looked in .venv-ryu/bin and PATH)")
 
     log = open(log_path, "w")
-    proc = subprocess.Popen([ryu, "--observe-links", "controller/cdn_controller.py", "monitor/link_monitor.py"],
-                            cwd=str(REPO), env={**os.environ, "CDN_MODE": mode},
+    env = {**os.environ, "CDN_MODE": mode,
+           "CDN_LINK_LOG": str(Path(log_path).parent / "link_utilization.csv")}
+    proc = subprocess.Popen([ryu, "--observe-links", "controller/cdn_controller.py",
+                             "monitor/link_monitor.py"],
+                            cwd=str(REPO), env=env,
                             stdout=log, stderr=subprocess.STDOUT)
     proc.log = log
     for _ in range(30):
@@ -165,7 +170,8 @@ def run(mode, exp, duration, fail_at, filename, interval):
                      if line and not line.startswith("timestamp")]
     (out_dir / "clients.csv").write_text(
         "timestamp,client_ip,file,bytes,response_time_ms\n" + "".join(l + "\n" for l in new_lines))
-    (out_dir / "events.csv").write_text("".join(",".join(e) + "\n" for e in events))
+    with (out_dir / "events.csv").open("w", newline="") as f:
+        csv.writer(f).writerows(events)  # quotes details like "clients h11,h12,h13"
     (out_dir / "client_output.txt").write_text(
         "".join(f"===== {h} =====\n{o}\n" for h, o in outputs.items()))
 

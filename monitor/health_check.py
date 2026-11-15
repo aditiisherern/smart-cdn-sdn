@@ -14,7 +14,8 @@ SERVERS = {
 CHECK_INTERVAL = 2
 FAILURES_TO_MARK_DEAD = 2
 
-LOG_DIR = "results"
+LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                       "experiments", "results")
 LOG_FILE = os.path.join(LOG_DIR, "server_health.csv")
 
 os.makedirs(LOG_DIR, exist_ok=True)

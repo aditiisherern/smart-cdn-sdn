@@ -1,5 +1,7 @@
 import csv
+import os
 import time
+from datetime import datetime, timezone
 from pathlib import Path
 
 from ryu.base import app_manager
@@ -15,10 +17,12 @@ LINK_CAPACITY_BPS = 10 * 1000 * 1000
 link_load = {}
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-LOG_DIR = PROJECT_ROOT / "results"
-LOG_FILE = LOG_DIR / "link_utilization.csv"
+# experiments/run_scenario.py sets CDN_LINK_LOG so each run gets its own file.
+LOG_FILE = Path(os.environ.get(
+    "CDN_LINK_LOG",
+    PROJECT_ROOT / "experiments" / "results" / "link_utilization.csv"))
 
-LOG_DIR.mkdir(exist_ok=True)
+LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 if not LOG_FILE.exists():
     with open(LOG_FILE, "w", newline="") as f:
@@ -86,7 +90,8 @@ class LinkMonitor(app_manager.RyuApp):
 
             with open(LOG_FILE, "a", newline="") as f:
                 csv.writer(f).writerow([
-                    time.strftime("%Y-%m-%d %H:%M:%S"),
+                    # Same format as clients.csv and events.csv.
+                    datetime.now(timezone.utc).isoformat(),
                     dp.id,
                     stat.port_no,
                     round(utilization * 100, 2)
